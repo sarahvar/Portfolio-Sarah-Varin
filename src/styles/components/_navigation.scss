@@ -72,6 +72,9 @@
         }
         span {
           margin-left: 2.7rem;
+          &:hover {
+            color: $color-4;
+          }
         }
       }
     }
