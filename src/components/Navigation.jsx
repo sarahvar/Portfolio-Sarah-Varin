@@ -10,7 +10,7 @@ export default function Navigation() {
         </div>
       </div>
 
-      <div className="Navigation">
+      <div className="navigation">
         <ul>
           <li>
             <NavLink exact to="/" activeClassName="navActive">
