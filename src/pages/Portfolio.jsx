@@ -1,9 +1,11 @@
 import Navigation from "../components/Navigation";
+import ProjectList from "../components/portfolio/ProjectList";
 
 export default function Portfolio () {
     return (
-        <div>
+        <div className="portfolio">
             <Navigation/>
-            Hello je suis le Portfolio</div>
+            <ProjectList/>
+            </div>
     )
 }

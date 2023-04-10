@@ -12,7 +12,7 @@ const ProgressBar = (props) => {
       <div>
         {
             props.languages.map((item) => {
-                let xpYears = 2;
+                let xpYears = 1; //CALCUL SUR LE NOMBRE D'ANNEES D'EXP
                 let progressBar = item.xp / xpYears * 100 + "%";
 
                 return (
