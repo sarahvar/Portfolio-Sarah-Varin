@@ -11,7 +11,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "la panthère",
-    languages: ["javascriprt", "css", "php"],
+    languages: ["javascript", "css", "php"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-php"],
     source: "https://github.com/sarahvar/La-Panthere",
     info: "Une agence de design web la panthère apparaît seulement en deuxième page des moteurs de recherche le but : amélioration du SEO du site.  ",
@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "piiquante",
-    languages: ["javascript", "node.js"],
+    languages: ["javascript", "node"],
     languagesIcons: ["fab fa-js", "fa-brands fa-node"],
     source: "https://github.com/sarahvar/P6-Piiquante-Back",
     info: "Piiquante est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que les autres partagent. Le back-end a été fait par moi-même pour construire une API sécurisée.",
