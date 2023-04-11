@@ -6,7 +6,7 @@ export default function Experiences() {
         <h4>Stagiaire en développement web</h4>
         <h5>02-05-2022 au 06-05-2022</h5>
         <p>
-          J'ai effectuer mon stage en entreprise chez Girelle Production à
+          J'ai effectuée mon stage en entreprise chez Girelle Production à
           Orléans, Mr Boisset mon tuteur m'a appris l'HTML, le CSS et PHP. J'ai
           pu pendant cette période voir comment un developpeur web s'organise,
           developpe un site web en front-end et back-end avec sa base de données
