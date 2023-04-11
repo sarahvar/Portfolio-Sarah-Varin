@@ -18,7 +18,7 @@ export default function Experiences() {
         <p>
           Ma deuxième période de stage dans l'entreprise Girelle Production m'a
           permis de confirmer mon projet professionnel et de m'orienter vers une
-          fomation de developpeuse web que j'ai débuter le 6 juillet 2022 et
+          fomation de developpeuse web que j'ai débutée le 6 juillet 2022 et
           terminer le 2 mars 2023
         </p>
       </div>
