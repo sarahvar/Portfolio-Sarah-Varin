@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./styles/styles.scss";
 import Home from "./pages/Home";
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 import Competences from "./pages/Competences";
 import Portfolio from "./pages/Portfolio";
