@@ -8,6 +8,7 @@ import Error404 from "./pages/Error404";
 import Competences from "./pages/Competences";
 import Portfolio from "./pages/Portfolio";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
