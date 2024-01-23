@@ -53,9 +53,27 @@ export const portfolioData = [
     id: 6,
     name: "life-is-strange",
     languages: ["php", "css"],
-    languagesIcons: ["fab fa-php", , "fab fa-css3-alt"],
+    languagesIcons: ["fab fa-php", "fab fa-css3-alt"],
     source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
     info: "Passionée de l'univers Life Is Strange, j'ai créer plusieurs pages sur ce jeu avec PHP",
     picture: "./media/lis.jpg",
   },
+  {
+    id: 7,
+    name: "PetitsPlats",
+    languages: ["javascript", "css"],
+    languagesIcons: ["fab fa-js","fab fa-css3-alt"],
+    source: "https://github.com/sarahvar/PetitsPlats2.0",
+    info: "Le projet PetitsPLats m'a permis de travailler sur les algorithmes et de comparer la méthode array et les boucles natives",
+    picture: "./media/PetitsPlats.png",
+  },
+  {
+    id: 8,
+    name: "Billed",
+    languages: ["javascript", "css"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
+    source: "https://github.com/sarahvar/P9_Billed_app",
+    info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
+    picture: "./media/Billed.png"
+  }
 ];

@@ -50,14 +50,9 @@ export default function Navigation() {
                 <i className="fa-brands fa-github"></i>
                 </a> 
             </li>
-            <li>
-                <a href="https://codepen.io/sasardine">
-                    <i className="fa-brands fa-codepen"></i>
-                </a>
-            </li>
         </ul>
         <div className="signature">
-            <p>Sarah Varin - 2023</p>
+            <p>Sarah Varin - 2024</p>
         </div>
       </div>
     </div>

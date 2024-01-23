@@ -57,15 +57,6 @@ export default function Contact() {
               <h4>Github</h4>
               <i className="fab fa-github"></i>
             </a>
-
-            <a
-              href="https://codepen.io/sasardine"
-              target="_blank"
-              rel="noopener noreferer"
-            >
-              <h4>CodePen</h4>
-              <i className="fab fa-codepen"></i>
-            </a>
           </ul>
         </div>
       </div>
