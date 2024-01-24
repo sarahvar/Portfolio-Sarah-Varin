@@ -6,14 +6,16 @@ const babelConfig = {
 };
 
 export default defineConfig({
-  plugins: [
-    react({
-      ...babelConfig,
-    }),
-  ],
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom'],
+  plugins: [react(babelConfig)],
+  server: {
+    fs: {
+      strict: false,
+    },
+    middleware: (req, res, next) => {
+      if (req.originalUrl.endsWith('.jsx')) {
+        res.type('application/javascript');
+      }
+      next();
     },
   },
 });
