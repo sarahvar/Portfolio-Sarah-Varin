@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { portfolioData } from "../../data/portfolioData.jsx";
+import { portfolioData } from "../../data/portfolioData.js";
 import Project from "./Project.jsx";
 
 class ProjectList extends Component {
