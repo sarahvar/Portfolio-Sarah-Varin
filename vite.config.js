@@ -23,11 +23,10 @@ export default defineConfig({
     },
     middleware: (req, res, next) => {
       if (req.originalUrl.endsWith('.jsx')) {
-        res.type('application/javascript');
+        res.type('application/javascript; charset=utf-8'); // Ajout de "; charset=utf-8"
       }
       next();
     },
   },
   base: process.env.NODE_ENV === 'production' ? '/Portfolio-Sarah-Varin/' : '/',
 });
-
