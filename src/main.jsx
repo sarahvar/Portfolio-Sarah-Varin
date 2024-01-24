@@ -8,7 +8,6 @@ import Error404 from "./pages/Error404";
 import Competences from "./pages/Competences";
 import Portfolio from "./pages/Portfolio";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <Contact/>,
+    element: <Contact />,
     errorElement: <Error404 />,
   },
   {
@@ -29,11 +28,11 @@ const router = createBrowserRouter([
     path: "/portfolio",
     element: <Portfolio />,
     errorElement: <Error404 />,
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-  <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
