@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react(babelConfig)],
   build: {
     rollupOptions: {
-      external: ['react-router-dom'], // Ajoutez ici d'autres modules externes si nécessaire
+      external: ['react-router-dom'],
     },
   },
 });
