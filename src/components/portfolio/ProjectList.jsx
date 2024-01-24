@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { portfolioData } from "../../data/portfolioData";
-import Project from "./Project";
+import { portfolioData } from "../../data/portfolioData.jsx";
+import Project from "./Project.jsx";
 
 class ProjectList extends Component {
   state = {
