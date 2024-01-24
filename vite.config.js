@@ -1,9 +1,18 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// Configuration Babel pour le support JSX
+const babelConfig = {
+  presets: ['@babel/preset-react'],
+};
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react({
+      ...babelConfig,
+    }),
+  ],
   server: {
     fs: {
       // permet d'éviter les erreurs liées à l'extension par défaut ".jsx"
@@ -18,3 +27,4 @@ export default defineConfig({
     },
   },
 });
+
