@@ -1,14 +1,12 @@
 .home {
-
   .homeContent {
-    background: #E9F1FA;
+    background: #e9f1fa;
     min-height: $minHeight;
     width: 100%;
     min-height: 500px;
     border-radius: $borderRadius;
     position: relative;
     overflow: hidden;
-
 
     .content {
       position: absolute;
@@ -34,13 +32,13 @@
         color: $color-3;
         text-shadow: 1px 4px 1px $black;
       }
-      figure{
+      figure {
         margin-left: 1rem;
       }
       .pdf {
-          width: 100%;
-          display: flex;
-          justify-content: right;
+        width: 100%;
+        display: flex;
+        justify-content: right;
         a {
           font-size: 2.4rem;
           background: $color-3;
@@ -57,12 +55,12 @@
     }
   }
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
   .homeContent {
     margin: 0 !important;
   }
 }
-@media screen and (max-width:580px){
+@media screen and (max-width: 580px) {
   .homeContent {
     h1 {
       font-size: 3rem !important;

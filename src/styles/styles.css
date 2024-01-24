@@ -204,7 +204,8 @@ a:visited {
   }
 }
 .home .homeContent {
-  background: #E9F1FA;
+  background: #e9f1fa;
+  min-height: 95vh;
   width: 100%;
   min-height: 500px;
   border-radius: 25px;
