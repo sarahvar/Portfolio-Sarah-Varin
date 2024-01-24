@@ -7,6 +7,16 @@ const babelConfig = {
 
 export default defineConfig({
   plugins: [react(babelConfig)],
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'],
+      output: {
+        manualChunks: {
+          'react-router-dom': ['react-router-dom'],
+        },
+      },
+    },
+  },
   server: {
     fs: {
       strict: false,
@@ -18,10 +28,6 @@ export default defineConfig({
       next();
     },
   },
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom'], // Ajoutez ici d'autres modules externes si nécessaire
-    },
-  },
+  base: process.env.NODE_ENV === 'production' ? '/Portfolio-Sarah-Varin/' : '/',
 });
 
