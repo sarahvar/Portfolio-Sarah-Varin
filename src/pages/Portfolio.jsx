@@ -1,5 +1,5 @@
-import Navigation from "../components/Navigation.jsx";
-import ProjectList from "../components/portfolio/ProjectList.jsx";
+import Navigation from "../components/Navigation";
+import ProjectList from "../components/portfolio/ProjectList";
 
 export default function Portfolio () {
     return (
