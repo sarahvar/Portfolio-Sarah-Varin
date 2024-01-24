@@ -204,8 +204,7 @@ a:visited {
   }
 }
 .home .homeContent {
-  background: linear-gradient(115deg, #2a1d52 100%, transparent 100%);
-  min-height: 95vh;
+  background: #E9F1FA;
   width: 100%;
   min-height: 500px;
   border-radius: 25px;
