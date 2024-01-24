@@ -1,7 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  server: {
+    middleware: {
+      // Middleware pour définir le type MIME des fichiers .js
+      '*.@(js)': (req, res, next) => {
+        res.setHeader('Content-Type', 'application/javascript');
+        next();
+      },
+    },
+  },
+});
