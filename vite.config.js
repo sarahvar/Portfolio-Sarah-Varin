@@ -28,5 +28,5 @@ export default defineConfig({
       next();
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/Portfolio-Sarah-Varin/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/sarahvar/Portfolio-Sarah-Varin/' : '/',
 });
