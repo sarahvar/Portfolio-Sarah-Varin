@@ -5,7 +5,7 @@ export default function Navigation() {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./public/media/Photo-Sarah-Varin.jpeg" alt="profil" />
+          <img src="./media/Photo-Sarah-Varin.jpeg" alt="profil" />
           <h3>Sarah Varin</h3>
         </div>
       </div>
