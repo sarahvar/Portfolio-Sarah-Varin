@@ -15,14 +15,6 @@ export default function Home() {
             >
               Télécharger CV
             </a>
-            <figure>
-              <h3>Présentation Sarah Varin</h3>
-              <audio controls src="./src/assets/Présentation_Sarah_Varin.mp3">
-                <a href="./src/assets/Présentation_Sarah_Varin.mp3">
-                  Download audio
-                </a>
-              </audio>
-            </figure>
           </div>
         </div>
       </div>
