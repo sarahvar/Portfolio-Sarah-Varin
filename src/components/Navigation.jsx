@@ -25,9 +25,9 @@ export default function Navigation() {
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/portfolio" activeClassName="navActive">
+            <NavLink exact to="/projets" activeClassName="navActive">
               <i className="fa-solid fa-images"></i>
-              <span>Portfolio</span>
+              <span>Projets</span>
             </NavLink>
           </li>
           <li>

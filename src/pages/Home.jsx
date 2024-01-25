@@ -17,7 +17,7 @@ export default function Home() {
             </a>
             <figure>
               <h3>Présentation Sarah Varin</h3>
-           <h4> Diplômé de la formation Developpeuse web, je suis actuellement en formation Developpeuse d'applications Javascript React afin de monter en compétences. Je suis disponible pour une alternance à compter d'août 2024.</h4>
+           <h4> Diplômée de la formation Developpeuse web, je suis actuellement en formation Developpeuse d'applications Javascript React afin de monter en compétences. Je suis disponible pour une alternance à compter d'août 2024.</h4>
             </figure>
           </div>
         </div>

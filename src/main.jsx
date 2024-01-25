@@ -6,7 +6,7 @@ import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import Error404 from "./pages/Error404.jsx";
 import Competences from "./pages/Competences.jsx";
-import Portfolio from "./pages/Portfolio.jsx";
+import Projets from "./pages/Portfolio.jsx";
 
 
 const router = createBrowserRouter([
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
     errorElement: <Error404 />,
   },
   {
-    path: "/portfolio",
-    element: <Portfolio />,
+    path: "/projets",
+    element: <Projets />,
     errorElement: <Error404 />,
   }
 ]);
