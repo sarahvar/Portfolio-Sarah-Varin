@@ -15,6 +15,10 @@ export default function Home() {
             >
               Télécharger CV
             </a>
+            <figure>
+              <h3>Présentation Sarah Varin</h3>
+           <h4> Diplômé de la formation Developpeuse web, je suis actuellement en formation Developpeuse d'applications Javascript React afin de monter en compétences et en savoir</h4>
+            </figure>
           </div>
         </div>
       </div>
