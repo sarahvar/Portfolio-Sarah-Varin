@@ -15,6 +15,19 @@ export default function Contact() {
               <span>Orléans</span>
             </li>
             <li>
+              <i className="fa-solid fa-mobile"></i>
+              <CopyToClipboard text="0762793411">
+                <span
+                  className="clickInput"
+                  onClick={() => {
+                    alert("Téléphone copié!");
+                  }}
+                >
+                  07 67 28 30 54
+                </span>
+              </CopyToClipboard>
+            </li>
+            <li>
               <i className="fa-solid fa-envelope"></i>
               <CopyToClipboard text="sarahvarin95@gmail.com">
                 <span
