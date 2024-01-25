@@ -13,7 +13,7 @@ export default function Home() {
               href="./media/Cv_Sarah_Varin_Developpeuse-Web.pdf"
               target="blank"
             >
-              Télécharger<br> CV </br>
+              Télécharger &nbsp;&nbsp;&nbsp;&nbsp; CV
             </a>
             <figure>
               <h3>Présentation Sarah Varin</h3>
