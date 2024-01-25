@@ -17,8 +17,8 @@ export default function Home() {
             </a>
             <figure>
               <h3>Présentation Sarah Varin</h3>
-              <audio controls ="../../public/media/Présentation_Sarah_Varin.mp3">
-                <a href="../../public/Présentation_Sarah_Varin.mp3">
+              <audio controls src="./src/assets/Présentation_Sarah_Varin.mp3">
+                <a href="./src/assets/Présentation_Sarah_Varin.mp3">
                   Download audio
                 </a>
               </audio>
