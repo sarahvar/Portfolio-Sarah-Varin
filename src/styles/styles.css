@@ -29,7 +29,6 @@ a {
 a:visited {
   color: #333;
 }
-
 .home, .competences, .portfolio, .contact {
   display: flex;
 }
