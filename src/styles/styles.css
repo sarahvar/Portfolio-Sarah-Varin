@@ -212,9 +212,6 @@ a:visited {
   overflow: hidden;
 }
 .home .homeContent .content {
-  position: absolute;
-  top: 20%;
-  left: 13%;
   font-family: "Nova Round", cursive;
 }
 .home .homeContent .content h1 {
@@ -254,7 +251,13 @@ a:visited {
 .home .homeContent .content .pdf a:hover {
   background: #4FEDD2;
 }
-
+@media screen and (min-width: 850px) {
+  .home .homeContent .content {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+  }
+}
 @media screen and (max-width: 850px) {
   .homeContent {
     margin: 0 !important;
