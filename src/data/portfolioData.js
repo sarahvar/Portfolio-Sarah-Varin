@@ -64,7 +64,7 @@ export const portfolioData = [
     languages: ["javascript", "css"],
     languagesIcons: ["fab fa-js","fab fa-css3-alt"],
     source: "https://github.com/sarahvar/PetitsPlats2.0",
-    info: "Le projet PetitsPLats m'a permis de travailler sur les algorithmes et de comparer la méthode array et les boucles natives",
+    info: "Le projet PetitsPLats m'a permis de travailler sur les algorythmes et de comparer la méthode array et les boucles natives",
     picture: "./media/PetitsPlats.png",
   },
   {
