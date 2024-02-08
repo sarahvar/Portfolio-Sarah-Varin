@@ -13,7 +13,7 @@ export default function Hobbies() {
         </li>
         <li className="hobby">
         <i class="fa-brands fa-unity"></i>
-          <span>Jeux vidéos 3D</span>
+          <span>Jeux 3D</span>
           </li>
           <li className="hobby">
           <i class="fa-solid fa-rocket"></i>
