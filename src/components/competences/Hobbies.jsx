@@ -5,7 +5,7 @@ export default function Hobbies() {
       <ul>
         <li className="hobby">
           <i class="fa-solid fa-person-running"></i>
-          <span>Course à pied</span>
+          <span>Course</span>
         </li>
         <li className="hobby">
           <i class="fa-solid fa-person-hiking"></i>
