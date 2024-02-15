@@ -41,7 +41,7 @@ export default function Navigation() {
       <div className="socialNetwork">
         <ul>
             <li>
-                <a href="https://github.com/sarahvar">
+                <a href="https://www.linkedin.com/in/sarah-varin/">
                 <i className="fa-brands fa-linkedin"></i>
                 </a> 
             </li>
