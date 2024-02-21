@@ -13,7 +13,10 @@ export default function Navigation() {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="navActive">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               <i className="fa-solid fa-house"></i>
               <span>Accueil</span>
             </NavLink>
@@ -35,24 +38,24 @@ export default function Navigation() {
               <i className="fa-solid fa-address-book"></i>
               <span>Contact</span>
             </NavLink>
-          </li> 
+          </li>
         </ul>
       </div>
       <div className="socialNetwork">
         <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/sarah-varin/">
-                <i className="fa-brands fa-linkedin"></i>
-                </a> 
-            </li>
-            <li>
-                <a href="https://github.com/sarahvar">
-                <i className="fa-brands fa-github"></i>
-                </a> 
-            </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sarah-varin/">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/sarahvar">
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </li>
         </ul>
         <div className="signature">
-            <p>Sarah Varin - 2024</p>
+          <p>Sarah Varin - 2024</p>
         </div>
       </div>
     </div>

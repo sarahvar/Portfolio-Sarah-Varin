@@ -750,7 +750,6 @@ a:visited {
   width: 100%;
 }
 .sidebar .id .idContent img {
-  border-radius: 50%;
   box-shadow: 0 0 0 4px rgb(99, 164, 233), 0 0 0 8px #4FEDD2, 0 0 0 12px #6C77F4;
 }
 .sidebar .id .idContent h3 {
