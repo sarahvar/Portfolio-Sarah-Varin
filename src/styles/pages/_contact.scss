@@ -1,5 +1,5 @@
 .contactContent {
-  background: $color-3;
+  background: #737373;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
@@ -38,7 +38,7 @@
   }
   .contactBox {
     grid-area: 2;
-    background: $color-5;
+    background: #a6a6a6;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 2;
@@ -99,6 +99,7 @@
   }
   .socialNetwork {
     grid-area: 3;
+    background: #737373;
     @include verticalCenter;
 
     ul {
@@ -110,7 +111,7 @@
       a {
         width: 20%;
         font-size: 1.2rem;
-        background: $color-5;
+        background: #a6a6a6;
         border-radius: $borderRadius;
         display: inline-block;
         padding: 0.7rem 0;
