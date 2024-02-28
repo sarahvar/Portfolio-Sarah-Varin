@@ -45,7 +45,7 @@ export const portfolioData = [
       "fab fa-react",
       "fa-brands fa-figma",
     ],
-    source: "https://github.com/sarahvar/kasa-P7",
+    source: "https://github.com/sarahvar/kasa-P11",
     info: "Le projet Kasa est développer grâce à Creact React Application avec les composants React, les routes React Router, en suivant les maquettes Figma de l’ensemble de l’application.",
     picture: "./media/kasa.svg"
   },
