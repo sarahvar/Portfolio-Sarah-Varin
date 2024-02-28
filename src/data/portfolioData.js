@@ -15,7 +15,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-php"],
     source: "https://github.com/sarahvar/La-Panthere",
     info: "Une agence de design web la panthère apparaît seulement en deuxième page des moteurs de recherche le but : amélioration du SEO du site.  ",
-    picture: "./media/agence-la-panthere.svg",
+    picture: "./media/la_panthere.png",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const portfolioData = [
     ],
     source: "https://github.com/sarahvar/kasa-P11",
     info: "Le projet Kasa est développer grâce à Creact React Application avec les composants React, les routes React Router, en suivant les maquettes Figma de l’ensemble de l’application.",
-    picture: "./media/kasa.svg"
+    picture: "./media/Kasa.png"
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-php", "fab fa-css3-alt"],
     source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
     info: "Passionée de l'univers Life Is Strange, j'ai créer plusieurs pages sur ce jeu avec PHP",
-    picture: "./media/lis.jpg",
+    picture: "./media/lis.png",
   },
   {
     id: 7,
