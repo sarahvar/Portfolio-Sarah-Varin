@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "piiquante",
-    languages: ["javascript", "node"],
+    languages: ["node"],
     languagesIcons: ["fab fa-js", "fa-brands fa-node"],
     source: "https://github.com/sarahvar/P6-Piiquante-Back",
     info: "Piiquante est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que les autres partagent. Le back-end a été fait par moi-même pour construire une API sécurisée.",
@@ -38,7 +38,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "kasa",
-    languages: ["javascript", "css", "react", "figma"],
+    languages: ["javascript", "react", "figma"],
     languagesIcons: [
       "fab fa-js",
       "fab fa-css3-alt",
@@ -70,7 +70,7 @@ export const portfolioData = [
   {
     id: 8,
     name: "Billed",
-    languages: ["javascript", "css"],
+    languages: ["javascript"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
     source: "https://github.com/sarahvar/P9_Billed_app",
     info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
