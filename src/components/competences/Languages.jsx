@@ -9,7 +9,7 @@ class Languages extends Component {
       { id: 3, value: "Php", xp: 0.8 },
     ],
     frameworks: [
-      { id: 1, value: "React", xp: 1.2 },
+      { id: 1, value: "React", xp: 1.5 },
       { id: 3, value: "Angular", xp: 0.9 },
       { id: 4, value: "Figma", xp: 0.5 },
     ],
