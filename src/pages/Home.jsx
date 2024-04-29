@@ -10,16 +10,16 @@ export default function Home() {
           <h2>Développeuse web</h2>
           <div className="pdf">
             <a
-              href="./media/Cv_Sarah_Varin_Developpeuse-Web.pdf"
+              href="./media/CV_Sarah-Varin_developpeuse-fullstack.pdf"
               target="blank"
             >
               Télécharger mon CV
             </a>
             <figure>
               <h3>Présentation Sarah Varin</h3>
-           <h4> Diplômée de la formation Developpeuse web, je suis actuellement en formation Developpeuse d'applications Javascript React afin de monter en compétences.
+           <h4> Diplômée de la formation Developpeuse web, je suis passionée par le monde de l'informatique et la programmation.
             Je me forme en Java et Angular.
-             Je suis disponible pour une alternance à compter d'août 2024.</h4>
+             Je suis disponible pour une alternance, un CDI ou un CDD à compter d'août 2024.</h4>
             </figure>
           </div>
         </div>
