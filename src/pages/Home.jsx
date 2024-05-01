@@ -7,10 +7,10 @@ export default function Home() {
       <div className="homeContent">
         <div className="content">
           <h1>Sarah Varin</h1>
-          <h2>Développeuse web</h2>
+          <h2>Développeuse Full Stack</h2>
           <div className="pdf">
             <a
-              href="./media/CV_Sarah-Varin_developpeuse-fullstack.pdf"
+              href="./media/CV_Sarah-Varin_developpeuse-Full Stack.pdf"
               target="blank"
             >
               Télécharger mon CV
