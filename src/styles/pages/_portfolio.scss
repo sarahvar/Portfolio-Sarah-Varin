@@ -30,7 +30,6 @@
       padding: 0 1rem;
       flex: 1;
       z-index: 2;
-      @include verticalCenter;
 
       input[type="radio"]{
         visibility: hidden;
@@ -156,7 +155,7 @@
 
       .infosContent {
         position: relative;
-        top: 30%;
+        top: 55%;
         width: 90%;
         margin: 0 auto;
         color: $color-5;
@@ -220,6 +219,7 @@
     }
   }
 }
+
 @media (max-width: 520px) {
   .radioDisplay {
     width: 100% !important;
