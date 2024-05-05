@@ -11,7 +11,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "la panthère",
-    languages: ["javascript"],
+    languages: ["JS"],
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/sarahvar/La-Panthere",
     info: "Une agence de design web la panthère apparaît seulement en deuxième page des moteurs de recherche le but : amélioration du SEO du site.  ",
@@ -20,7 +20,7 @@ export const portfolioData = [
   {
     id: 3,
     name: "kanap",
-    languages: ["javascript"],
+    languages: ["JS"],
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/sarahvar/P5-Kanap",
     info: "Créer le front-end du site en intégrant dynamiquement les éléments de l’API dans les différentes pages web en Javascript.",
@@ -38,7 +38,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "kasa",
-    languages: ["javascript", "react", "figma"],
+    languages: ["JS", "react", "figma"],
     languagesIcons: [
       "fab fa-js",
       "fab fa-react",
@@ -60,7 +60,7 @@ export const portfolioData = [
   {
     id: 7,
     name: "PetitsPlats",
-    languages: ["javascript"],
+    languages: ["JS"],
     languagesIcons: ["fab fa-js","fab fa-css3-alt"],
     source: "https://github.com/sarahvar/PetitsPlats2.0",
     info: "Le projet PetitsPLats m'a permis de travailler sur les algorithmes et de comparer la méthode array et les boucles natives",
@@ -69,7 +69,7 @@ export const portfolioData = [
   {
     id: 8,
     name: "Billed",
-    languages: ["javascript"],
+    languages: ["JS"],
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/sarahvar/P9_Billed_app",
     info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
