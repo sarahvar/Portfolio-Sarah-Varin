@@ -156,7 +156,7 @@
 
       .infosContent {
         position: relative;
-        top: 25%;
+        top: 30%;
         width: 90%;
         margin: 0 auto;
         color: $color-5;
@@ -167,7 +167,7 @@
         animation: popup .6s ease forwards;
         transform: scale(0);
         transform-origin: center;
-
+        
         @keyframes popup {
           to {
             transform: scale(1);
@@ -220,22 +220,22 @@
     }
   }
 }
-@media (max-width: 520px){
+@media (max-width: 520px) {
   .radioDisplay {
     width: 100% !important;
-    display: grid !important;
+    display: grid !important; /* Afficher par défaut */
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    gap: 5px;
   }
- 
+
   .portfolioContent {
     grid-template-rows: 1fr !important;
-
-    .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
-      width: 98% !important;
-
-      img {
-        height: 100% !important;
-      }
-    }
   }
+
+  .portfolio .projects .project {
+    grid-template-rows: 30px 40px 80px 40px !important;
+    width: 98% !important;
+  }
+
 }
+
