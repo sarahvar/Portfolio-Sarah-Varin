@@ -74,5 +74,17 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/P9_Billed_app",
     info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
     picture: "./media/Billed.png"
-  }
+  },
+  {
+    id: 9,
+    name: "SportSee",
+    languages: ["JS", "react"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-react",
+    ],
+    source: "https://github.com/sarahvar/p12-sportsee",
+    info: "Le projet a pour but de savoir simuler une API en utilisant React.",
+    picture: "./media/logo_SportSee.png"
+  },
 ];
