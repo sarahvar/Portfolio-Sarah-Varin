@@ -22,7 +22,7 @@ export default function Home() {
               Télécharger ma lettre de recommandation
             </a>
             <a
-              href="./media/recommandation_de_Omar_Ben Sala.pdf"
+              href="./media/Lettre de recommandation_ Omer Ben Salahpdf"
               target="_blank"
             >
               Télécharger ma lettre de recommandation Mentor
