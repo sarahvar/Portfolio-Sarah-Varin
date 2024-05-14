@@ -21,6 +21,12 @@ export default function Home() {
             >
               Télécharger ma lettre de recommandation
             </a>
+            <a
+              href="./media/recommandation_de_Omar_Ben Sala.pdf"
+              target="_blank"
+            >
+              Télécharger ma lettre de recommandation Mentor
+            </a>
             <figure>
               <h4> Diplômée de la formation Développeuse web, je suis passionnée par le monde de l'informatique et la programmation. Je me forme en Java et Angular. Je suis disponible pour une alternance, un CDI ou un CDD à compter d'août 2024.</h4>
             </figure>
