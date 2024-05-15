@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 
 export default function Home() {
   const cvLink = isMobile 
-    ? './media/CV_Sarah-Varin_developpeuse-FullStack_mobile.pdf' 
-    : './media/CV_Sarah-Varin_developpeuse-FullStack.pdf';
+    ? './media/CV_Sarah-Varin_Developpeuse-Full Stack_mobile' 
+    : './media/CV_Sarah-Varin_developpeuse-Full Stack.pdf';
 
   return (
     <div className="home">
