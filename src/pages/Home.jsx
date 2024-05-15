@@ -19,7 +19,7 @@ export default function Home() {
               href="./media/recommandation_de_Celine_Bernardo.pdf"
               target="_blank"
             >
-              Télécharger ma lettre de recommandation Girelle Prouction
+              Télécharger ma lettre de recommandation Girelle Production
             </a>
             <a
               href="./media/Lettre de recommandation_Omer_Ben-Salah.pdf"
