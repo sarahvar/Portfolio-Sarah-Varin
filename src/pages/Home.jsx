@@ -10,7 +10,7 @@ export default function Home() {
           <h2>Développeuse Full Stack</h2>
           <div className="pdf">
             <a
-              href="./media/CV_Sarah-Varin_developpeuse-FullStack.pdf"
+              href="./media/CV_Sarah-Varin_developpeuse-Full Stack.pdf"
               target="_blank"
             >
               Télécharger mon CV 
