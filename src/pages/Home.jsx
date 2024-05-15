@@ -33,7 +33,7 @@ export default function Home() {
               Télécharger ma lettre de recommandation Girelle Production
             </a>
             <a
-              href="./media/Lettre_de_recommandation_Omer_Ben-Salah.pdf"
+              href="./media/Lettre de recommandation_Omar_Ben-Salah.pdf"
               target="_blank"
             >
               Télécharger ma lettre de recommandation Mentor
