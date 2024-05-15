@@ -8,6 +8,9 @@ export default function Home() {
         <div className="content">
           <h1>Sarah <span className="varin">Varin</span></h1>
           <h2>Développeuse Full Stack</h2>
+            <figure>
+              <h4> Diplômée de la formation Développeuse web, je suis passionnée par le monde de l'informatique et la programmation. Je me forme en Java et Angular. Je suis disponible pour une alternance, un CDI ou un CDD à compter d'août 2024.</h4>
+            </figure>
           <div className="pdf">
             <a
               href="./media/CV_Sarah-Varin_developpeuse-Full Stack.pdf"
@@ -27,9 +30,6 @@ export default function Home() {
             >
               Télécharger ma lettre de recommandation Mentor
             </a>
-            <figure>
-              <h4> Diplômée de la formation Développeuse web, je suis passionnée par le monde de l'informatique et la programmation. Je me forme en Java et Angular. Je suis disponible pour une alternance, un CDI ou un CDD à compter d'août 2024.</h4>
-            </figure>
           </div>
         </div>
       </div>
