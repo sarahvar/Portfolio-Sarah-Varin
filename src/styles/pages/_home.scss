@@ -77,19 +77,13 @@
   }
 
   @media (max-width: 767px) {
-    .desktop-cv {
-      display: none;
-    }
+   
     .homeContent {
       min-height: calc($minHeight * 1.2); // Augmente la hauteur de la page sur les mobiles
       padding-bottom: 2rem; // Ajoute un padding en bas pour plus d'espace
     }
   }
 
-  @media (min-width: 768px) {
-    .mobile-cv {
-      display: none;
-    }
     @media screen and (max-width: 1024px) {
       .homeContent {
         min-height: calc($minHeight * 1.1); // Augmente la hauteur de la page sur les tablettes
@@ -115,4 +109,4 @@
       }
     }
   }
-}
+
