@@ -20,13 +20,6 @@ export default function Home() {
               Télécharger mon CV
             </a>
             <a
-              href="./media/CV_Sarah-Varin_Developpeuse-Full Stack_mobile.pdf"
-              target="_blank"
-              className="mobile-cv"
-            >
-              Télécharger mon CV
-            </a>
-            <a
               href="./media/recommandation_de_Celine_Bernardo.pdf"
               target="_blank"
             >
