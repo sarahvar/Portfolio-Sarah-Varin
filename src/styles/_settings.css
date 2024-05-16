@@ -7,9 +7,8 @@
 
 body {
   margin: 1rem auto;
-  max-width: 1200px;
   font-family: "Nova Round", cursive;
-  color: #333;
+  color: #ddd;
 }
 
 button {

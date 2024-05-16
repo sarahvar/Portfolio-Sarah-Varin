@@ -4,11 +4,11 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #2a1d52;
-$color-2: #737373;
-$color-3: rgb(99, 164, 233);
+$color-1: #4FEDD2;
+$color-2: Black;
+$color-3: white;
 $color-4: #4FEDD2;
-$color-5: #36D0EA;
+$color-5: white;
 $white: #ddd;
 $black:#333;
 
@@ -28,9 +28,8 @@ $minHeight: 95vh;
 }
 body {
   margin: 1rem auto;
-  max-width: 1200px;
   font-family: $font-1;
-  color: $black;
+  color: $white;
 }
 button {
   cursor: pointer;

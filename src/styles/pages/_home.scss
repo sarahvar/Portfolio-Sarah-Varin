@@ -1,6 +1,6 @@
 .home {
   .homeContent {
-    background: #737373;
+    background: black;
     min-height: $minHeight;
     width: 100%;
     border-radius: $borderRadius;
@@ -18,49 +18,52 @@
         margin-top: 2rem;
         font-size: 5rem;
         font-family: $font-1;
-        color: rgb(15, 15, 15);
+        color: white;
         text-transform: uppercase;
         text-shadow: 3px 6px 2px $black;
-      }
-      h1 {
         position: relative;
       }
-      
+
       .varin {
         position: absolute;
         top: 100%;
         left: 50%;
         transform: translateX(-50%);
       }
-      
+
       h2 {
         font-size: 2.5rem;
         padding: 6.5rem 0 2rem;
-        color: rgb(99, 164, 233);
+        color: #4FEDD2;
         text-shadow: 1px 4px 1px $black;
       }
+
       h3 {
         font-size: 1.5rem;
         color: #a6a6a6;
         text-shadow: 1px 4px 1px $black;
       }
+
       h4 {
         padding: 1rem;
         color: $color-3;
       }
+
       figure {
         margin-left: 1rem;
       }
+
       .pdf {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 30px;
+
         a {
           font-size: 1rem;
           background: $color-3;
-          padding: 1rem 2rem;
+          padding: 1rem 1rem;
           border-radius: $borderRadius;
           box-shadow: 0 5px 1px rgb(15, 15, 15);
           transition: 0.2s ease;
@@ -72,32 +75,44 @@
       }
     }
   }
-}
 
-@media (max-width: 767px) {
-  .desktop-cv {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .mobile-cv {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .homeContent {
-    margin: 0 !important;
-  }
-}
-@media screen and (max-width: 580px) {
-  .homeContent {
-    h1 {
-      font-size: 3rem !important;
+  @media (max-width: 767px) {
+    .desktop-cv {
+      display: none;
     }
-    h2 {
-      font-size: 1.8rem !important;
+    .homeContent {
+      min-height: calc($minHeight * 1.2); // Augmente la hauteur de la page sur les mobiles
+      padding-bottom: 2rem; // Ajoute un padding en bas pour plus d'espace
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mobile-cv {
+      display: none;
+    }
+    @media screen and (max-width: 1024px) {
+      .homeContent {
+        min-height: calc($minHeight * 1.1); // Augmente la hauteur de la page sur les tablettes
+        padding-bottom: 2rem; // Ajoute un padding en bas pour plus d'espace
+      }
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .homeContent {
+      margin: 0 !important;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .homeContent {
+      h1 {
+        font-size: 3rem !important;
+      }
+
+      h2 {
+        font-size: 1.8rem !important;
+      }
     }
   }
 }
