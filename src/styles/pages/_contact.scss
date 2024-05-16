@@ -1,5 +1,5 @@
 .contactContent {
-  background: #737373;
+  background: Black;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
@@ -15,7 +15,7 @@
     grid-area: 1;
     width: 100%;
     position: relative;
-    background: $color-1;
+    background: black;
     height: 340px;
 
     &:before {
@@ -38,7 +38,7 @@
   }
   .contactBox {
     grid-area: 2;
-    background: rgb(99, 164, 233);
+    background: white;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 2;
@@ -90,6 +90,7 @@
         outline: none;
         width: 350px;
         transition: .2s ease;
+        color: black
       }
       .clickInput:hover {
         transform: translateX(56px);
@@ -99,7 +100,7 @@
   }
   .socialNetwork {
     grid-area: 3;
-    background: #737373;
+    background:Black;
     @include verticalCenter;
 
     ul {
@@ -111,7 +112,7 @@
       a {
         width: 20%;
         font-size: 1.2rem;
-        background: rgb(99, 164, 233);
+        background: white;
         border-radius: $borderRadius;
         display: inline-block;
         padding: 0.7rem 0;

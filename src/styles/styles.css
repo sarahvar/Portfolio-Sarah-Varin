@@ -48,7 +48,7 @@ a:visited {
 }
 
 .contactContent {
-  background: rgb(99, 164, 233);
+  background: white;
   border-radius: 25px;
   width: 100%;
   overflow: hidden;
@@ -152,7 +152,7 @@ a:visited {
 .contactContent .socialNetwork ul a {
   width: 20%;
   font-size: 1.2rem;
-  background: #36D0EA;
+  background: white;
   border-radius: 25px;
   display: inline-block;
   padding: 0.7rem 0;
@@ -166,7 +166,7 @@ a:visited {
   background: #4FEDD2;
 }
 .contactContent .socialNetwork ul a i {
-  color: #6C77F4;
+  color: white;
   margin-top: 0.3rem;
 }
 @keyframes pop {
@@ -314,7 +314,7 @@ a:visited {
   font-size: 0.65rem;
   display: flex;
   justify-content: space-between;
-  color: #ddd;
+  color: #4FEDD2;
 }
 .competences .competencesContent .languagesFrameworks .years span {
   width: 36%;
@@ -339,7 +339,7 @@ a:visited {
   padding-top: 0.5rem;
 }
 .competences .competencesContent .languagesFrameworks .languagesList li {
-  color: #2a1d52;
+  color: #4fedd2;
 }
 .competences .competencesContent .languagesFrameworks .languagesList .progressBar {
   height: 0.4rem;
@@ -409,6 +409,7 @@ a:visited {
 .competences .competencesContent .otherSkills .list ul i {
   color: #36D0EA;
 }
+
 .competences .competencesContent .hobbies {
   grid-area: H;
   padding-left: 1.5rem;
@@ -481,11 +482,11 @@ a:visited {
 }
 .portfolio .radioDisplay {
   grid-area: 1;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 100%;
   padding: 1rem 2rem;
   margin: 0 auto;
-  background: #2a1d52;
+  background: Black;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -734,7 +735,7 @@ a:visited {
   width: 100%;
 }
 .sidebar .id .idContent img {
-  box-shadow: 0 0 0 4px rgb(99, 164, 233), 0 0 0 8px #4FEDD2, 0 0 0 12px #6C77F4;
+  box-shadow: 0 0 0 4px rgb(99, 164, 233), 0 0 0 12px #6C77F4;
 }
 .sidebar .id .idContent h3 {
   font-size: 1.3rem;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function OtherSkills() {
   return (
     <div className="otherSkills">
@@ -5,34 +7,34 @@ export default function OtherSkills() {
       <div className="list">
         <ul>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            Anglais bases
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>Anglais bases</span>
           </li>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            Github
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>Github</span>
           </li>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            SEO
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>SEO</span>
           </li>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            Méthodes agiles
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>Méthodes agiles</span>
           </li>
         </ul>
         <ul>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            Figma
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>Figma</span>
           </li>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            UI/UX Design
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>UI/UX Design</span>
           </li>
           <li>
-            <i class="fa-solid fa-square-check"></i>
-            Montage vidéo
+            <i className="fa-solid fa-square-check"></i>
+            <span style={{ marginLeft: '0.5rem' }}>Montage vidéo</span>
           </li>
         </ul>
       </div>
