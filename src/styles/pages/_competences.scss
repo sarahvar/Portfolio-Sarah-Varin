@@ -133,7 +133,12 @@
       p {
         text-align: justify;
         padding: 0 1rem;
+        font-size: 1.5rem ;
       }
+      .paragraph-margin {
+        margin-top: 10px; /* Ajustez cette valeur selon vos besoins */
+      }
+      
       .exp-1 {
         grid-area: 2;
       }
@@ -200,6 +205,11 @@
     .otherSkills, .hobbies {
       font-size: .8rem;
     }
+  }
+}
+@media (max-width: 768px) {
+  .competences .competencesContent .experience p  {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 850px){
