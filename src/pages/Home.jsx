@@ -9,7 +9,7 @@ export default function Home() {
           <h1>Sarah <span className="varin">Varin</span></h1>
           <h2>Développeuse Full Stack</h2>
           <figure>
-            <h4> Diplômée de la formation Développeuse web, actuellement en formation développeuse d'application JavaScript/React, je suis passionnée par le monde de l'informatique et la programmation. Je me forme en Java et Angular. Je suis disponible pour une alternance, un CDI ou un CDD à compter d'août 2024.</h4>
+            <h4> Diplômée de la formation Développeuse web, actuellement en formation développeuse d'application JavaScript/React, je suis passionnée par le monde de l'informatique et la programmation. Je suis disponible pour une alternance à compter d'août 2024 pour apprndre Java ou C# avec l'école Studi ou OpenClassrooms.</h4>
           </figure>
           <div className="pdf">
             <a
