@@ -155,7 +155,11 @@
 
       .infosContent {
         position: relative;
+<<<<<<< HEAD
         top: 25%;
+=======
+        top: 65%;
+>>>>>>> origin/main
         width: 90%;
         margin: 0 auto;
         color: $color-5;
@@ -218,6 +222,7 @@
     }
   }
 }
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .infosContent {
     top: 65% !important;
@@ -230,6 +235,16 @@
     grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
     gap: 5px;
   }
+=======
+
+@media (max-width: 520px) {
+  .radioDisplay {
+    width: 100% !important;
+    display: grid !important; /* Afficher par défaut */
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    gap: 5px;
+  }
+>>>>>>> origin/main
 
   .portfolioContent {
     grid-template-rows: 1fr !important;
@@ -241,3 +256,7 @@
   }
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
