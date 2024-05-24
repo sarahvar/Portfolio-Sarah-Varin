@@ -119,9 +119,8 @@
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
-
     }
-    img, video {
+    img {
       grid-area: 3;
       margin: 0 auto;
       width: 100%;
@@ -156,11 +155,11 @@
 
       .infosContent {
         position: relative;
-        top: 65%;
+        top: 25%;
         width: 90%;
         margin: 0 auto;
         color: $color-5;
-        background: $color-1;
+        background: black;
         border-radius: $borderRadius;
         padding: 2rem;
         box-shadow: 0 10px 10px #333;
@@ -185,8 +184,7 @@
       }
       .button {
         cursor: pointer;
-        color: $color-1;
-        background: $color-5;
+        color: white;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;
@@ -220,7 +218,11 @@
     }
   }
 }
-
+@media (max-width: 768px) {
+  .infosContent {
+    top: 65% !important;
+  }
+}
 @media (max-width: 520px) {
   .radioDisplay {
     width: 100% !important;
