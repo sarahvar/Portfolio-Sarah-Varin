@@ -12,7 +12,7 @@ class Project extends Component {
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture } = this.props.item;
+    let { name, languagesIcons, source, info, picture, link } = this.props.item;
 
     return (
       <div className="project">
@@ -22,7 +22,19 @@ class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
-        <img src={picture} alt="" onClick={this.handleInfo} />
+        <div className="image-link">
+          <img src={picture} alt="" onClick={this.handleInfo} />
+          {link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "white" }}
+            >
+              Voir le projet {name}
+            </a>
+          )}
+        </div>
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>
@@ -33,13 +45,20 @@ class Project extends Component {
               <div className="head">
                 <h2>{name}</h2>
                 <div className="sourcecode">
-                    <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source</a>
+                  <a
+                    href={source}
+                    rel="noopener noreferrer"
+                    className="button"
+                    target="_blank"
+                  >
+                    Code source
+                  </a>
                 </div>
               </div>
 
-            <p className="text">{info}</p>
+              <p className="text">{info}</p>
 
-              <div className="button ruturn" onClick={this.handleInfo}>
+              <div className="button return" onClick={this.handleInfo}>
                 Retourner sur la page
               </div>
             </div>
