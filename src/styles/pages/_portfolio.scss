@@ -119,6 +119,7 @@
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
+
     }
     img {
       grid-area: 3;
@@ -155,15 +156,11 @@
 
       .infosContent {
         position: relative;
-<<<<<<< HEAD
-        top: 25%;
-=======
         top: 65%;
->>>>>>> origin/main
         width: 90%;
         margin: 0 auto;
         color: $color-5;
-        background: black;
+        background: $color-1;
         border-radius: $borderRadius;
         padding: 2rem;
         box-shadow: 0 10px 10px #333;
@@ -188,7 +185,8 @@
       }
       .button {
         cursor: pointer;
-        color: white;
+        color: $color-1;
+        background: $color-5;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;
@@ -222,20 +220,6 @@
     }
   }
 }
-<<<<<<< HEAD
-@media (max-width: 768px) {
-  .infosContent {
-    top: 65% !important;
-  }
-}
-@media (max-width: 520px) {
-  .radioDisplay {
-    width: 100% !important;
-    display: grid !important; /* Afficher par défaut */
-    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
-    gap: 5px;
-  }
-=======
 
 @media (max-width: 520px) {
   .radioDisplay {
@@ -244,7 +228,6 @@
     grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
     gap: 5px;
   }
->>>>>>> origin/main
 
   .portfolioContent {
     grid-template-rows: 1fr !important;
@@ -256,7 +239,4 @@
   }
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main

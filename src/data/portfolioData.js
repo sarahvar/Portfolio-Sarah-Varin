@@ -7,7 +7,6 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/garage",
     info: "Utiliser la méthode CRUD pour la gestion des voitures. Application faites avec Spring Boot.",
     picture: "./media/reparation-automobile.avif",
-    link: "https://youtu.be/LUldsWq6fB8",
   },
   {
     id: 2,
@@ -15,7 +14,7 @@ export const portfolioData = [
     languages: ["JS"],
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/sarahvar/La-Panthere",
-    info: "Une agence de design web la panthère apparaît seulement en deuxième page des moteurs de recherche le but : amélioration du SEO du site.",
+    info: "Une agence de design web la panthère apparaît seulement en deuxième page des moteurs de recherche le but : amélioration du SEO du site.  ",
     picture: "./media/la_panthere.png",
   },
   {
@@ -47,7 +46,7 @@ export const portfolioData = [
     ],
     source: "https://github.com/sarahvar/kasa-P11",
     info: "Le projet Kasa est développer grâce à Creact React Application avec les composants React, les routes React Router, en suivant les maquettes Figma de l’ensemble de l’application.",
-    picture: "./media/Kasa.png",
+    picture: "./media/Kasa.png"
   },
   {
     id: 6,
@@ -74,7 +73,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/sarahvar/P9_Billed_app",
     info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
-    picture: "./media/Billed.png",
+    picture: "./media/Billed.png"
   },
   {
     id: 9,
@@ -86,6 +85,6 @@ export const portfolioData = [
     ],
     source: "https://github.com/sarahvar/p12-sportsee",
     info: "Le projet a pour but de savoir simuler une API en utilisant React.",
-    picture: "./media/logo_SportSee.png",
+    picture: "./media/logo_SportSee.png"
   },
 ];
