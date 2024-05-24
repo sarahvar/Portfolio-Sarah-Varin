@@ -26,28 +26,28 @@ class ProjectList extends Component {
     return (
       <div className="portfolioContent">
         <ul className="radioDisplay">
-        {radios.map((radio) => {
-          return (
-            <li key={radio.id}>
-              <input
-                type="radio"
-                name="radio"
-                checked={radio.value === selectedRadio}
-                value={radio.value}
-                id={radio.value}
-                onChange={this.handleRadio}
-              />
-              <label htmlFor={radio.value}>{radio.value}</label>
-            </li>
-          );
-        })}
+          {radios.map((radio) => {
+            return (
+              <li key={radio.id}>
+                <input
+                  type="radio"
+                  name="radio"
+                  checked={radio.value === selectedRadio}
+                  value={radio.value}
+                  id={radio.value}
+                  onChange={this.handleRadio}
+                />
+                <label htmlFor={radio.value}>{radio.value}</label>
+              </li>
+            );
+          })}
         </ul>
         <div className="projects">
           {projects
-          .filter(item => item.languages.includes(selectedRadio))
-          .map((item) => {
-            return <Project key={item.id} item={item} />;
-          })}
+            .filter((item) => item.languages.includes(selectedRadio))
+            .map((item) => {
+              return <Project key={item.id} item={item} />;
+            })}
         </div>
       </div>
     );

@@ -12,7 +12,7 @@ class Project extends Component {
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture } = this.props.item;
+    let { name, languagesIcons, source, info, picture, video } = this.props.item;
 
     return (
       <div className="project">
@@ -22,7 +22,14 @@ class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
-        <img src={picture} alt="" onClick={this.handleInfo} />
+        {video ? (
+          <video width="100%" height="90%" controls>
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        ) : (
+          <img src={picture} alt="" onClick={this.handleInfo} />
+        )}
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>
@@ -37,9 +44,9 @@ class Project extends Component {
                 </div>
               </div>
 
-            <p className="text">{info}</p>
+              <p className="text">{info}</p>
 
-              <div className="button ruturn" onClick={this.handleInfo}>
+              <div className="button return" onClick={this.handleInfo}>
                 Retourner sur la page
               </div>
             </div>
