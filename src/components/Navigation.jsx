@@ -1,13 +1,32 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
+  const [isTabletOrMobile, setIsTabletOrMobile] = useState(
+    window.innerWidth <= 850
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsTabletOrMobile(window.innerWidth <= 850);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="sidebar">
       <div className="id">
-        <div className="idContent">
-          <img src="./media/Photo-Sarah-Varin.jpeg" alt="profil" />
-          <h3>Sarah Varin</h3>
-        </div>
+        {!isTabletOrMobile && (
+          <div className="idContent">
+            <img src="./media/Photo-Sarah-Varin.jpeg" alt="profil" />
+            <h3>Sarah Varin</h3>
+          </div>
+        )}
       </div>
 
       <div className="navigation">
@@ -42,21 +61,7 @@ export default function Navigation() {
         </ul>
       </div>
       <div className="socialNetwork">
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/sarah-varin/">
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/sarahvar">
-              <i className="fa-brands fa-github"></i>
-            </a>
-          </li>
-        </ul>
-        <div className="signature">
-          <p>Sarah Varin - 2024</p>
-        </div>
+        {/* Réseaux sociaux */}
       </div>
     </div>
   );
