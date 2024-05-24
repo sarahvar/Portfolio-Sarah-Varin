@@ -23,7 +23,7 @@ class Project extends Component {
         </div>
         <h3>{name}</h3>
         {video ? (
-          <video width="100%" height="90%" controls>
+          <video controls>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -40,7 +40,9 @@ class Project extends Component {
               <div className="head">
                 <h2>{name}</h2>
                 <div className="sourcecode">
-                    <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source</a>
+                  <a href={source} rel="noopener noreferrer" className="button" target="_blank">
+                    Code source
+                  </a>
                 </div>
               </div>
 

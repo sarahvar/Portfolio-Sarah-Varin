@@ -6,7 +6,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-java", "fab fa-angular"],
     source: "https://github.com/sarahvar/garage",
     info: "Utiliser la méthode CRUD pour la gestion des voitures. Application faites avec Spring Boot.",
-    video: "../../public/media/Demonstration Garage-Login.mp4" 
+    video: "../../public/media/Demonstration Garage-Login.mp4" // Exemple de fichier vidéo
   },
   {
     id: 2,
