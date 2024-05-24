@@ -7,11 +7,6 @@ export default function Contact() {
       <Navigation />
       <div className="contactContent">
         <div className="header">
-          <img
-            src="../../../public/media/Photo-Sarah-Varin.jpeg"
-            alt="profil"
-            className="profile-image"
-          />
         </div>
         <div className="contactBox">
           <h1>Contactez-moi</h1>
