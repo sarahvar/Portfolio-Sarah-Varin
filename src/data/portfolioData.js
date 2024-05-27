@@ -50,15 +50,17 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/kasa-P11",
     info: "Le projet Kasa est développer grâce à Creact React Application avec les composants React, les routes React Router, en suivant les maquettes Figma de l’ensemble de l’application.",
     picture: "./media/Kasa.png",
+    link: "https://youtu.be/0pWK6Td5yzE",
   },
   {
     id: 6,
-    name: "life-is-strange",
-    languages: ["php", "css"],
-    languagesIcons: ["fab fa-php", "fab fa-css3-alt"],
-    source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
-    info: "Passionée de l'univers Life Is Strange, j'ai créer plusieurs pages sur ce jeu avec PHP",
-    picture: "./media/lis.png",
+    name: "FishEye",
+    languages: ["JS"],
+    languagesIcons: ["fab fa-js"],
+    source: "https://github.com/sarahvar/Front-End-Fisheye",
+    info: "Créez un site accessible pour une plateforme de photographes avec des designs patterns.",
+    picture: "./media/FisheEye.png",
+    link: "https://youtu.be/He7OnhJdldk",
   },
   {
     id: 7,
@@ -68,6 +70,7 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/PetitsPlats2.0",
     info: "Le projet PetitsPLats m'a permis de travailler sur les algorithmes et de comparer la méthode array et les boucles natives",
     picture: "./media/PetitsPlats.png",
+    link: "https://youtu.be/OOkEjmMxxfQ",
   },
   {
     id: 8,
@@ -77,6 +80,7 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/P9_Billed_app",
     info: "Billed est un projet qui m'a appris à écrire des tests unitaires et des tests d'intégration avec JavaScript",
     picture: "./media/Billed.png",
+    link: "https://youtu.be/3lTbWkG7jq4",
   },
   {
     id: 9,
@@ -89,5 +93,6 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/p12-sportsee",
     info: "Le projet a pour but de savoir simuler une API en utilisant React.",
     picture: "./media/logo_SportSee.png",
+    link: "https://youtu.be/TAduMCl8M_o",
   },
 ];

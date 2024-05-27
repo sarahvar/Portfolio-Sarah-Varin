@@ -6,13 +6,20 @@ class Project extends Component {
   };
 
   handleInfo = () => {
-    this.setState({
-      showInfo: !this.state.showInfo,
-    });
+    this.setState((prevState) => ({
+      showInfo: !prevState.showInfo,
+    }));
+  };
+
+  handleTitleClick = () => {
+    const { link } = this.props.item;
+    if (link) {
+      window.open(link, "_blank");
+    }
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture, link } = this.props.item;
+    const { name, languagesIcons, source, info, picture, link } = this.props.item;
 
     return (
       <div className="project">
@@ -21,19 +28,18 @@ class Project extends Component {
             <i className={icon} key={icon}></i>
           ))}
         </div>
-        <h3>{name}</h3>
-        <div className="image-link">
-          <img src={picture} alt="" onClick={this.handleInfo} />
+        <div className="title-container">
+          <h3 onClick={this.handleTitleClick} style={{ cursor: "pointer" }}>
+            {name}
+          </h3>
           {link && (
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "white" }}
-            >
-              Voir le projet {name}
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              Voir le projet
             </a>
           )}
+        </div>
+        <div className="image-link">
+          <img src={picture} alt="" onClick={this.handleInfo} />
         </div>
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>

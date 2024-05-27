@@ -709,7 +709,6 @@ a:visited {
 .sidebar {
   background: #2a1d52;
   font-family: "Nova Round", cursive;
-  height: 100%;
   min-height: 95vh;
   width: 264px;
   border-radius: 25px;
