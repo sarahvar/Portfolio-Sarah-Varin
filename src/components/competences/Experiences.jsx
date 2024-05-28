@@ -6,15 +6,14 @@ export default function Experiences() {
         <h4>Développement web</h4>
         <h5>02-05-2022 au 31-05-2022</h5>
         <p className="paragraph-margin">
-          J'ai mis en pratique HTML, CSS et PHP. J'ai créer une stratégie de contenu web et j'étais au contact des clients pour répondre aux questions et gérer les retours.
+          J'ai mis en pratique HTML, CSS et PHP, élaborer des plans détaillés pour produire, publier et promouvoir du contenu en ligne, en tenant compte des objectifs commerciaux ou communicationnels, de l'audience cible, des tendances du marché et des exigences techniques du développement web, dans le but d'optimiser la visibilité, l'engagement et la conversion sur le site web. J'ai fait du support client.
         </p>
       </div>
       <div className="exp-2">
         <h4>Développement web</h4>
         <h5>01-06-2022 au 01-07-2022</h5>
         <p className="paragraph-margin">
-          J'ai développer une API en mettant en oeuvre des opérations CRUD.
-          Ecrire des tests unitaires et faire du maquettage pour un client.
+          J'ai fait du maquettage pour un client. Développer une API en mettant en oeuvre des opérations CRUD et écrire des tests unitaires.
         </p>
       </div>
     </div>

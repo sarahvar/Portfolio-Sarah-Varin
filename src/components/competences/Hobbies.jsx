@@ -17,7 +17,7 @@ export default function Hobbies() {
           </li>
           <li className="hobby">
           <i class="fa-solid fa-rocket"></i>
-          <span>Espace</span>
+          <span>Astronomie</span>
         </li>
       </ul>
     </div>
