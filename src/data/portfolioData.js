@@ -41,7 +41,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "kasa",
-    languages: ["JS", "react", "figma"],
+    languages: ["react", "figma"],
     languagesIcons: [
       "fab fa-js",
       "fab fa-react",
@@ -85,7 +85,7 @@ export const portfolioData = [
   {
     id: 9,
     name: "SportSee",
-    languages: ["JS", "react"],
+    languages: ["react"],
     languagesIcons: [
       "fab fa-js",
       "fab fa-react",
