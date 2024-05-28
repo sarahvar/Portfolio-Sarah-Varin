@@ -13,7 +13,7 @@ export default function Experiences() {
         <h4>Développement web</h4>
         <h5>01-06-2022 au 01-07-2022</h5>
         <p className="paragraph-margin">
-          J'ai fait du maquettage pour un client. Développer une API en mettant en oeuvre des opérations CRUD et écrire des tests unitaires.
+          J'ai fait du maquettage pour un client. <br /> Développer une API en mettant en oeuvre des opérations CRUD <br /> J'ai écrit des tests unitaires et d'intégration.
         </p>
       </div>
     </div>
