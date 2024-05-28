@@ -28,7 +28,6 @@ export default function Navigation() {
           </div>
         )}
       </div>
-
       <div className="navigation">
         <ul>
           <li>
@@ -59,9 +58,6 @@ export default function Navigation() {
             </NavLink>
           </li>
         </ul>
-      </div>
-      <div className="socialNetwork">
-        {/* Réseaux sociaux */}
       </div>
     </div>
   );
