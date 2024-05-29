@@ -11,6 +11,7 @@ class ProjectList extends Component {
       { id: 3, value: "react" },
       { id: 4, value: "java" },
       { id: 5, value: "node" },
+      { id: 6, value: "PHP" },
     ],
     selectedRadio: "JS",
   };

@@ -95,4 +95,16 @@ export const portfolioData = [
     picture: "./media/logo_SportSee.png",
     link: "https://youtu.be/TAduMCl8M_o",
   },
+  {
+    id: 10,
+    name: "Life Is Strange",
+    languages: ["PHP"],
+    languagesIcons: [
+      "fab fa-php",,
+    ],
+    source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
+    info: "Le projet a pour but de savoir simuler une API en utilisant React.",
+    picture: "./media/lis.png",
+    link: "",
+  }
 ];
