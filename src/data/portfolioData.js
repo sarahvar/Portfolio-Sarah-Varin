@@ -100,10 +100,10 @@ export const portfolioData = [
     name: "Life Is Strange",
     languages: ["PHP"],
     languagesIcons: [
-      "fab fa-php",,
+      "fab fa-php",
     ],
     source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
-    info: "Le projet a pour but de savoir simuler une API en utilisant React.",
+    info: "Projet personnel pour apprendre PHP. Passionée de l'univers Life Is Strange, j'ai créer plusieurs pages sur ce jeu.",
     picture: "./media/lis.png",
     link: "",
   }
