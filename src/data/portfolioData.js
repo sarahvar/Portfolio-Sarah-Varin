@@ -106,5 +106,17 @@ export const portfolioData = [
     info: "Projet personnel pour apprendre PHP. Passionée de l'univers Life Is Strange, j'ai créer plusieurs pages sur ce jeu.",
     picture: "./media/lis.png",
     link: "",
+  },
+  {
+    id: 11,
+    name: " ARGENTBANK",
+    languages: ["react"],
+    languagesIcons: [
+      "fab fa-react",
+    ],
+    source: "https://github.com/sarahvar/ARGENT_BANK_front",
+    info: "Le projet a pour but de savoir simuler une API en utilisant React et Redux.",
+    picture: "./media/argentBankLogo.png",
+    link: "https://youtu.be/lseYvucT2X0",
   }
 ];
