@@ -66,7 +66,7 @@ export const portfolioData = [
     id: 7,
     name: "PetitsPlats",
     languages: ["JS"],
-    languagesIcons: ["fab fa-js","fab fa-css3-alt"],
+    languagesIcons: ["fab fa-js",],
     source: "https://github.com/sarahvar/PetitsPlats2.0",
     info: "Le projet PetitsPLats m'a permis de travailler sur les algorithmes et de comparer la méthode array et les boucles natives",
     picture: "./media/PetitsPlats.png",
@@ -112,11 +112,26 @@ export const portfolioData = [
     name: " ARGENTBANK",
     languages: ["react"],
     languagesIcons: [
+      "fab fa-js",
       "fab fa-react",
     ],
     source: "https://github.com/sarahvar/ARGENT_BANK_front",
     info: "Le projet a pour but de savoir simuler une API en utilisant React et Redux.",
     picture: "./media/argentBankLogo.png",
     link: "https://youtu.be/lseYvucT2X0",
+  },
+  {
+    id: 12,
+    name: "HRnet",
+    languages: ["react"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-react",
+    ],
+    source: "https://github.com/sarahvar/P14_HRnet",
+    info: "Le but de projet était de faire passer une librairie jQuery vers React pour améliorer les performances de l'application et sa maintenabilité.",
+    picture: "./media/HRnet.png",
+    link: "https://youtu.be/ZZY940qwfaU",
   }
+
 ];
