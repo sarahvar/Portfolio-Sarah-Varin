@@ -9,7 +9,7 @@ export default function Home() {
           <h1>Sarah <span className="varin">Varin</span></h1>
           <h2>Développeuse Informatique</h2>
           <figure>
-            <h4> Je suis passionnée par le développement et actuellement en formation développeuse d'application JavaScript/React. Je suis disponible pour un contrat d'apprentissage. Cette formation, d'une durée de deux ans, se déroulera à raison de quatre jours en entreprise.</h4>
+            <h4> Je suis passionnée par le développement et je suis ravie d'annoncer que j'ai terminé ma formation en développement d'application JavaScript/React le 13 août 2024. Cette formation m'a apportée beaucoup de connaissances et de pratiques. Je suis disponible pour un contrat d'apprentissage. Cette formation, d'une durée de deux ans, se déroulera à raison de quatre jours en entreprise.</h4>
           </figure>
           <div className="pdf">
             <a
