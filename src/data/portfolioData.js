@@ -132,6 +132,17 @@ export const portfolioData = [
     info: "Le but de projet était de faire passer une librairie jQuery vers React pour améliorer les performances de l'application et sa maintenabilité.",
     picture: "./media/HRnet.png",
     link: "https://youtu.be/ZZY940qwfaU",
-  }
-
+  },
+{ 
+  id: 13,
+  name: "Life Is Strange Refonte",
+  languages: ["PHP"],
+  languagesIcons: [
+    "fab fa-php",
+  ],
+  source: "https://github.com/sarahvar/Life-Is-Strange-PHP",
+  info: "J'ai entrepris la refonte du site web Life Is Strange que j'avais initialement développé en PHP. Dans cette nouvelle version, j'ai amélioré l'aspect visuel du site en utilisant CSS, ce qui le rend plus attrayant. De nouvelles fonctionnalités ont été intégrées, notamment un quiz interactif. La page d'accueil a été modifiée pour ressembler davantage à celle du jeu, offrant une expérience plus immersive. De plus, j'ai ajouté la musique de l'accueil du jeu, que l'utilisateur peut démarrer ou arrêter à sa convenance. Ces améliorations visent à enrichir l'expérience utilisateur et à mieux refléter l'univers du jeu Life Is Strange.",
+  picture: "./media/life-is-strange.webp",
+  link: "https://youtu.be/iypDkNt8aKQ",
+}
 ];
