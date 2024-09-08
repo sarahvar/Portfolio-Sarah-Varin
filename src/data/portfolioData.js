@@ -33,7 +33,7 @@ export const portfolioData = [
     name: "piiquante",
     languages: ["node"],
     languagesIcons: ["fab fa-js", "fa-brands fa-node"],
-    source: "https://github.com/sarahvar/P6-Piiquante-Back",
+    source: "https://github.com/sarahvar/P6-Hot-Takes",
     info: "Piiquante est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que les autres partagent. Le back-end a été fait par moi-même pour construire une API sécurisée.",
     picture: "./media/hotTakes.jpg",
     link: "https://youtu.be/yhXwVRT5OwY",

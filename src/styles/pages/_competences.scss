@@ -131,7 +131,6 @@
         padding: 0.5rem 0 0.5rem 1rem;
       }
       p {
-        text-align: justify;
         padding: 0 1rem;
         font-size: 1.1rem ;
       }
@@ -248,6 +247,15 @@
     .hobbies {
       grid-area: 4 !important;
       margin-top: .5rem !important;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .competences .competencesContent .hobbies ul {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding-right: 5.5rem
     }
   }
 }

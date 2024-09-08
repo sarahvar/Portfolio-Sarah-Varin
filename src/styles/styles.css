@@ -382,7 +382,6 @@ a:visited {
   padding: 0.5rem 0 0.5rem 1rem;
 }
 .competences .competencesContent .experience p {
-  text-align: justify;
   padding: 0 1rem;
 }
 .competences .competencesContent .experience .exp-1 {
@@ -397,7 +396,7 @@ a:visited {
 }
 .competences .competencesContent .otherSkills .list {
   display: flex;
-  width: 80%;
+  width: 96%;
   height: 100%;
   margin: 0 auto;
   justify-content: space-between;
@@ -423,7 +422,6 @@ a:visited {
   color: #36D0EA;
 }
 .competences .competencesContent .hobbies ul li span {
-  position: absolute;
   transform: translateX(2.2rem);
 }
 
@@ -855,4 +853,5 @@ a:visited {
   .sidebar ul span {
     display: none;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
