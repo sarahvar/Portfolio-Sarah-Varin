@@ -9,7 +9,7 @@ export default function Home() {
           <h1>
             Sarah <span className="varin">Varin</span>
           </h1>
-          <h2>Développeuse web</h2>
+          <h2>Développeuse web FullStack</h2>
           <figure>
             <figcaption>
               <h4>
@@ -22,7 +22,7 @@ export default function Home() {
           </figure>
           <div className="pdf">
             <a
-              href="./media/CV_Sarah-Varin_developpeuse-web.pdf"
+              href="./media/CV_Sarah-Varin_developpeuse-web_FullStack.pdf"
               target="_blank"
               className="desktop-cv"
             >
