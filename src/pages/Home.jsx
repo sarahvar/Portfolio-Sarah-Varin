@@ -15,7 +15,8 @@ export default function Home() {
               <h4>
                 Passionnée par le développement, je suis ravie d'annoncer que j'ai terminé ma formation en développement d'application JavaScript/React le 13 août 2024, qui a duré un an et deux mois.
                 <p>
-                  Cette formation m'a apporté beaucoup de connaissances et de pratiques. Je suis disponible pour un contrat d'apprentissage dans le développement web. Cette formation, d'une durée de deux ans, se déroulera à raison de quatre jours en entreprise et un jour en école.
+                  Cette formation m'a apporté beaucoup de connaissances et de pratiques. Développeuse web motivée, je suis prête à relever de nouveaux défis
+                  techniques et à créer des sites et applications web intuitives et performantes au service de votre entreprise.
                 </p>
               </h4>
             </figcaption>
