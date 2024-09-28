@@ -5,15 +5,15 @@ $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
 $color-1: #4FEDD2;
-$color-2: Black;
+$color-2: #004aad;
 $color-3: white;
 $color-4: #4FEDD2;
 $color-5: white;
 $white: #ddd;
-$black:#333;
+$blue:#004aad;
 
 $borderRadius: 25px;
-$shadow: 0 1px 3px #333;
+$shadow: 0 1px 3px ;
 $minHeight: 95vh;
 
 @mixin verticalCenter {
@@ -39,11 +39,11 @@ li {
 }
 a {
   text-decoration: none;
-  color: $black;
+  color: $blue;
   cursor: pointer;
 }
 a:visited {
-  color:$black;
+  color:$blue;
 }
 .home, .competences, .portfolio, .contact {
   display: flex;
