@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -17,10 +17,64 @@
     <script src="https://kit.fontawesome.com/2f06b2b5ee.js" crossorigin="anonymous"></script>
     
     <title>Portfolio Sarah Varin</title>
-  </head>
-  <body>
-    <div id="root"></div>
+    
+    <style>
+        /* Ajout des styles pour le fond et les animations */
+
+        body {
+            position: relative; /* Pour le positionnement de l'élément SVG */
+            overflow: hidden; /* Évite le défilement si le fond déborde */
+            margin: 0; /* Retire les marges par défaut */
+            background: linear-gradient(to bottom, #5de0e6, #00A8cc); /* Arrière-plan dégradé */
+            font-family: Arial, sans-serif; /* Typographie par défaut */
+            color: #333; /* Couleur du texte par défaut */
+        }
+
+        .wave-background {
+            position: absolute; /* Positionné derrière le contenu */
+            bottom: 0; /* Aligné au bas de la page */
+            left: 0; /* Aligné à gauche */
+            width: 100%; /* Prend toute la largeur */
+            height: 200px; /* Ajustez la hauteur comme nécessaire */
+            pointer-events: none; /* Ignore les événements de souris */
+            animation: wave 4s linear infinite; /* Animation de vague */
+        }
+
+        @keyframes wave {
+            0% {
+                transform: translateX(100%); /* Commence à droite */
+            }
+            100% {
+                transform: translateX(-100%); /* Va à gauche */
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div id="root" class="float-animation"></div>
+    
+    <!-- Ajout du SVG pour l'animation de fond -->
+    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path d="M0 10 Q 25 0, 50 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.2)"></path>
+    </svg>
+    
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
-  </body>
+</body>
 </html>
