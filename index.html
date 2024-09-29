@@ -39,7 +39,7 @@
             position: absolute; /* Positionné derrière le contenu */
             bottom: 0; /* Aligné au bas de la page */
             left: 0; /* Aligné à gauche */
-            width: 75%; /* Prend toute la largeur */
+            width: 100%; /* Prend toute la largeur */
             height: 200px; /* Ajustez la hauteur comme nécessaire */
             pointer-events: none; /* Ignore les événements de souris */
             animation: wave 4s linear infinite; /* Animation de vague */
@@ -47,10 +47,10 @@
 
         @keyframes wave {
             0% {
-                transform: translateX(100%); /* Démarre à droite */
+                transform: translateX(0);
             }
             100% {
-                transform: translateX(-10%); /* Va vers la gauche */
+                transform: translateX(-10%);
             }
         }
 
@@ -73,7 +73,7 @@
 </head>
 <body>
     <div id="root" class="float-animation">
-        <!-- Contenu ici -->
+
     </div>
     
     <!-- Ajout du SVG pour l'animation de fond -->
