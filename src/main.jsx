@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import { inject } from '@vercel/analytics';
 import "./styles/styles.scss";
+import WaveAnimation from './components/WaveAnimation.jsx'; // Importez votre composant
 
 // Initialiser Vercel Analytics
 inject();
@@ -18,53 +19,77 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Home />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Home />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Error404 />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Error404 />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
   },
   {
     path: "/contact",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Contact />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Contact />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Error404 />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Error404 />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
   },
   {
     path: "/competences",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Competences />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Competences />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Error404 />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Error404 />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
   },
   {
     path: "/projets",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Projets />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Projets />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Error404 />
-      </Suspense>
+      <>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Error404 />
+        </Suspense>
+        <WaveAnimation /> {/* Ajoutez l'animation ici, en bas */}
+      </>
     ),
   }
 ]);

@@ -18,101 +18,44 @@
     <title>Portfolio Sarah Varin</title>
     
     <style>
-        /* Ajout des styles pour le fond et les animations */
+        /* Ajout des styles pour le fond */
 
         body {
-            position: relative; /* Pour le positionnement de l'élément SVG */
+            position: relative; /* Pour le positionnement des éléments */
             overflow-x: hidden; /* Évite le défilement horizontal */
             margin: 0; /* Retire les marges par défaut */
             background: linear-gradient(to bottom, #5de0e6, #00A8cc); /* Arrière-plan dégradé */
             font-family: Arial, sans-serif; /* Typographie par défaut */
             color: #333; /* Couleur du texte par défaut */
             min-height: 100vh; /* S'assurer que le body prend tout l'espace visible */
-            padding-bottom: 200px; /* Pour laisser de l'espace pour la vague */
+            display: flex; /* Utilisation de flexbox pour centrer le contenu */
+            justify-content: center; /* Centre horizontalement */
+            align-items: center; /* Centre verticalement */
         }
 
-        .wave-background {
-            position: absolute; /* Positionné derrière le contenu */
-            bottom: 0; /* Aligné au bas de la page */
-            left: 0; /* Aligné à gauche */
-            width: 100%; /* Prend toute la largeur */
-            height: 200px; /* Ajustez la hauteur comme nécessaire */
-            pointer-events: none; /* Ignore les événements de souris */
-            animation: wave 4s linear infinite; /* Animation de vague */
-            z-index: -1; /* Assure que la vague est derrière le contenu */
+        h1 {
+            margin: 0; /* Retire les marges autour du h1 */
+            font-size: 2rem; /* Ajuste la taille de la police du h1 */
+            text-align: center; /* Centre le texte */
         }
 
-        @keyframes wave {
-            0% {
-                transform: translateX(100%); /* Commence à droite */
-            }
-            100% {
-                transform: translateX(-100%); /* Va à gauche */
-            }
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-5px);
-            }
-            100% {
-                transform: translateY(0);
-            }
-        }
-
-        .float-animation {
-            animation: float 3s ease-in-out infinite;
-        }
-
-        /* Media Queries pour Tablette (largeur de 1024px et moins) */
-        @media (max-width: 1024px) {
-            .wave-background {
-                height: 150px; /* Ajuste la hauteur de la vague pour les tablettes */
-            }
-
-            body {
-                font-size: 16px; /* Ajuste la taille de la police pour les tablettes */
-                padding-bottom: 150px; /* Ajuste l'espace en bas pour les tablettes */
-            }
-        }
-
-        /* Media Queries pour Mobile (largeur de 768px et moins) */
+        /* Media Queries pour adapter la taille du texte */
         @media (max-width: 768px) {
-            .wave-background {
-                height: 100px; /* Hauteur réduite pour les mobiles */
-            }
-
-            body {
-                font-size: 14px; /* Taille de police plus petite pour les petits écrans */
-                padding-bottom: 100px; /* Ajuste l'espace en bas pour les mobiles */
+            h1 {
+                font-size: 1.5rem; /* Taille de police plus petite pour les petits écrans */
             }
         }
 
-        /* Media Queries pour très petits mobiles (largeur de 480px et moins) */
         @media (max-width: 480px) {
-            .wave-background {
-                height: 80px; /* Hauteur encore plus petite pour les très petits écrans */
-            }
-
-            body {
-                font-size: 12px; /* Réduction de la taille de police */
-                padding-bottom: 80px; /* Ajuste l'espace en bas pour les très petits écrans */
+            h1 {
+                font-size: 1.2rem; /* Réduction supplémentaire pour les très petits écrans */
             }
         }
     </style>
 </head>
 <body>
-    <div id="root" class="float-animation">
-        <h1>Bienvenue sur mon portfolio</h1> <!-- Contenu au-dessus de la vague -->
+    <div id="root">
     </div>
-    
-    <!-- Ajout du SVG pour l'animation de fond -->
-    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
-        <path d="M0 10 Q 25 0, 50 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.2)"></path>
-    </svg>
     
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
