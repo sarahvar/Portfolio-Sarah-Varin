@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className="id">
         {!isTabletOrMobile && (
           <div className="idContent">
-            <img src="./media/Photo-Sarah-Varin.jpeg" alt="profil" />
+            <img src="./media/Sarah-Varin.jpg" alt="profil" />
             <h3>Sarah Varin</h3>
           </div>
         )}
