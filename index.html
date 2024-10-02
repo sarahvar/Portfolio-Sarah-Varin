@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="./media/laptop.svg" type="image/svg+xml" />
 
     <!-- Pré-résolution DNS pour Font Awesome -->
     <link rel="dns-prefetch" href="//kit.fontawesome.com" />
-    
+
     <!-- Préconnexion pour Font Awesome -->
     <link rel="preconnect" href="//kit.fontawesome.com" crossorigin />
-    
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2f06b2b5ee.js" crossorigin="anonymous"></script>
-    
+
     <title>Portfolio Sarah Varin</title>
-    
+
     <style>
         /* Ajout des styles pour le fond et les animations */
 
@@ -33,23 +33,25 @@
         #root {
             padding: 20px; /* Ajoutez un peu de remplissage */
             min-height: 100vh; /* Assurez-vous que la div root prend toute la hauteur */
-            text-align: center; /* Centre le texte */
-        }
-
-        h1 {
-            font-size: 2.5rem; /* Taille de la police pour le titre */
-            margin-bottom: 20px; /* Marge inférieure */
-            color: #ffffff; /* Couleur blanche */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
         }
 
         .wave-background {
             position: absolute; /* Positionné derrière le contenu */
             bottom: 0; /* Aligné au bas de la page */
             left: 0; /* Aligné à gauche */
-            width: 100%; /* Prend toute la largeur */
+            width: 75%; /* Prend toute la largeur */
             height: 200px; /* Ajustez la hauteur comme nécessaire */
             pointer-events: none; /* Ignore les événements de souris */
+            animation: wave 4s linear infinite; /* Animation de vague */
+        }
+
+        @keyframes wave {
+            0% {
+                transform: translateX(100%); /* Démarre à droite */
+            }
+            100% {
+                transform: translateX(-10%); /* Va vers la gauche */
+            }
         }
 
         @keyframes float {
@@ -65,22 +67,21 @@
         }
 
         .float-animation {
-            animation: float 3s ease-in-out infinite; /* Animation flottante pour le SVG */
+            animation: float 3s ease-in-out infinite;
         }
     </style>
 </head>
 <body>
-    <div id="root">
-        <h1>Bienvenue sur mon Portfolio</h1>
+    <div id="root" class="float-animation">
+        <!-- Contenu ici -->
     </div>
-    
-    <!-- Ajout du SVG pour l'animation de fond avec une vague plus courte en longueur -->
-    <svg class="wave-background float-animation" viewBox="0 0 120 28" preserveAspectRatio="none">
-        <!-- Réduire la longueur des vagues en rapprochant les points de contrôle -->
-        <path d="M0 20 Q 15 10, 30 20 T 60 20 T 90 20 T 120 20 V 28 H 0 Z" fill="rgba(255, 255, 255, 0.2)"></path>
+
+    <!-- Ajout du SVG pour l'animation de fond -->
+    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path d="M0 10 Q 25 0, 50 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.2)"></path>
     </svg>
-    
+
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
-</body> 
+</body>
 </html>
