@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="./media/laptop.svg" type="image/svg+xml" />
 
     <!-- Pré-résolution DNS pour Font Awesome -->
     <link rel="dns-prefetch" href="//kit.fontawesome.com" />
-
+    
     <!-- Préconnexion pour Font Awesome -->
     <link rel="preconnect" href="//kit.fontawesome.com" crossorigin />
-
+    
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2f06b2b5ee.js" crossorigin="anonymous"></script>
-
+    
     <title>Portfolio Sarah Varin</title>
-
+    
     <style>
-        /* Styles pour le fond et les animations */
+        /* Ajout des styles pour le fond et les animations */
+
         body {
             position: relative; /* Pour le positionnement de l'élément SVG */
             overflow-x: hidden; /* Évite le défilement horizontal */
             margin: 0; /* Retire les marges par défaut */
             background: linear-gradient(to bottom, #5de0e6, #00A8cc); /* Arrière-plan dégradé */
-            font-family: 'Arial', sans-serif; /* Typographie par défaut */
+            font-family: Arial, sans-serif; /* Typographie par défaut */
             color: #333; /* Couleur du texte par défaut */
         }
 
         #root {
-            padding: 40px; /* Ajoutez un peu de remplissage */
+            padding: 20px; /* Ajoutez un peu de remplissage */
             min-height: 100vh; /* Assurez-vous que la div root prend toute la hauteur */
             text-align: center; /* Centre le texte */
         }
@@ -49,28 +50,6 @@
             width: 100%; /* Prend toute la largeur */
             height: 200px; /* Ajustez la hauteur comme nécessaire */
             pointer-events: none; /* Ignore les événements de souris */
-            animation: wave 4s linear infinite; /* Animation de vague */
-        }
-
-        .wave-background:nth-child(2) {
-            bottom: 60px; /* La deuxième vague est un peu plus haute */
-            opacity: 0.6; /* Rendre la deuxième vague plus transparente */
-            animation-duration: 6s; /* La deuxième vague se déplace plus lentement */
-        }
-
-        .wave-background:nth-child(3) {
-            bottom: 40px; /* La troisième vague est un peu plus haute que la première */
-            opacity: 0.4; /* Rendre la troisième vague plus transparente */
-            animation-duration: 5s; /* La troisième vague se déplace encore plus lentement */
-        }
-
-        @keyframes wave {
-            0% {
-                transform: translateX(100%); /* Démarre à droite */
-            }
-            100% {
-                transform: translateX(-10%); /* Va vers la gauche */
-            }
         }
 
         @keyframes float {
@@ -86,26 +65,22 @@
         }
 
         .float-animation {
-            animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite; /* Animation flottante pour le SVG */
         }
     </style>
 </head>
 <body>
-    <div id="root" class="float-animation">
+    <div id="root">
         <h1>Bienvenue sur mon Portfolio</h1>
     </div>
-
-    <!-- Deuxième vague -->
-    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
-        <path d="M0 10 Q 15 5, 30 10 T 60 5 T 90 10 T 100 5 V 10 Z" fill="rgba(255, 255, 255, 0.4)"></path>
+    
+    <!-- Ajout du SVG pour l'animation de fond avec une vague plus courte en longueur -->
+    <svg class="wave-background float-animation" viewBox="0 0 120 28" preserveAspectRatio="none">
+        <!-- Réduire la longueur des vagues en rapprochant les points de contrôle -->
+        <path d="M0 20 Q 15 10, 30 20 T 60 20 T 90 20 T 120 20 V 28 H 0 Z" fill="rgba(255, 255, 255, 0.2)"></path>
     </svg>
-
-    <!-- Troisième vague -->
-    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
-        <path d="M0 10 Q 10 6, 20 10 T 40 5 T 60 10 T 80 6 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.1)"></path>
-    </svg>
-
+    
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
-</body>
+</body> 
 </html>
