@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="./media/laptop.svg" type="image/svg+xml" />
 
     <!-- Pré-résolution DNS pour Font Awesome -->
     <link rel="dns-prefetch" href="//kit.fontawesome.com" />
-    
+
     <!-- Préconnexion pour Font Awesome -->
     <link rel="preconnect" href="//kit.fontawesome.com" crossorigin />
-    
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2f06b2b5ee.js" crossorigin="anonymous"></script>
-    
+
     <title>Portfolio Sarah Varin</title>
-    
+
     <style>
         /* Ajout des styles pour le fond et les animations */
 
@@ -45,12 +45,24 @@
             animation: wave 4s linear infinite; /* Animation de vague */
         }
 
+        .wave-background:nth-child(2) {
+            bottom: 100px; /* La deuxième vague est un peu plus haute */
+            opacity: 0.6; /* Rendre la deuxième vague plus transparente */
+            animation-duration: 6s; /* La deuxième vague se déplace plus lentement */
+        }
+
+        .wave-background:nth-child(3) {
+            bottom: 80px; /* La troisième vague est un peu plus haute que la première */
+            opacity: 0.4; /* Rendre la troisième vague plus transparente */
+            animation-duration: 5s; /* La troisième vague se déplace encore plus lentement */
+        }
+
         @keyframes wave {
             0% {
-                transform: translateX(0);
+                transform: translateX(100%); /* Démarre à droite */
             }
             100% {
-                transform: translateX(-10%);
+                transform: translateX(-10%); /* Va vers la gauche */
             }
         }
 
@@ -75,12 +87,22 @@
     <div id="root" class="float-animation">
         <!-- Contenu ici -->
     </div>
-    
-    <!-- Ajout du SVG pour l'animation de fond -->
-    <svg class="wave-background" viewBox="0 0 120 28" preserveAspectRatio="none"> <!-- Augmenté à 120 pour une meilleure forme -->
-        <path d="M0 20 Q 30 10, 60 20 T 120 20 V 28 H 0 Z" fill="rgba(255, 255, 255, 0.2)"></path>
+
+    <!-- Première vague -->
+    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path d="M0 10 Q 25 0, 50 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.2)"></path>
     </svg>
-    
+
+    <!-- Deuxième vague -->
+    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path d="M0 10 Q 25 0, 50 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.2)"></path>
+    </svg>
+
+    <!-- Troisième vague -->
+    <svg class="wave-background" viewBox="0 0 100 10" preserveAspectRatio="none">
+        <path d="M0 10 Q 20 2, 40 10 T 100 10 V 10 Z" fill="rgba(255, 255, 255, 0.1)"></path>
+    </svg>
+
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
 </body>
