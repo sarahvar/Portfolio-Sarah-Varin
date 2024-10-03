@@ -35,24 +35,7 @@
             min-height: 100vh; /* Assurez-vous que la div root prend toute la hauteur */
         }
 
-        .wave-background {
-            position: absolute; /* Positionné derrière le contenu */
-            bottom: 0; /* Aligné au bas de la page */
-            left: 0; /* Aligné à gauche */
-            width: 75%; /* Prend toute la largeur */
-            height: 200px; /* Ajustez la hauteur comme nécessaire */
-            pointer-events: none; /* Ignore les événements de souris */
-            animation: wave 4s linear infinite; /* Animation de vague */
-        }
 
-        @keyframes wave {
-            0% {
-                transform: translateX(75%); /* Démarre à 50% à droite */
-            }
-            100% {
-                transform: translateX(-10%); /* Va vers la gauche */
-            }
-        }
 
         @keyframes float {
             0% {
@@ -75,8 +58,6 @@
     <div id="root" class="float-animation">
         <!-- Contenu ici -->
     </div>
-
-
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
 </body>
