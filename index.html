@@ -33,16 +33,22 @@
         #root {
             padding: 20px; /* Ajoutez un peu de remplissage */
             min-height: 100vh; /* Assurez-vous que la div root prend toute la hauteur */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
         @keyframes float {
             0% {
                 transform: translateY(0);
             }
             50% {
-                transform: translateY(-5px);
+                transform: translateY(-10px);
             }
             100% {
                 transform: translateY(0);
@@ -56,8 +62,7 @@
 </head>
 <body>
     <div id="root" class="float-animation">
-        <!-- Contenu ici -->
-    </div>
+
     <!-- Assurez-vous que le chemin du script est correct -->
     <script type="module" src="./src/main.jsx"></script>
 </body>
