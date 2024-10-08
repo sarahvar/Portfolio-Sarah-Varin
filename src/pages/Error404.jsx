@@ -5,7 +5,7 @@ export default function Error404() {
     <div className="error404">
       {/* Ajout du GIF du phare */}
       <div className="phare-container">
-        <img src="/public/media/phare.gif" alt="Phare" className="phare-gif" />
+        <img src="./media/phare.gif" alt="Phare" className="phare-gif" />
       </div>
       <div className="error404Content">
         <h3>Désolée cette page n'existe pas !</h3>
