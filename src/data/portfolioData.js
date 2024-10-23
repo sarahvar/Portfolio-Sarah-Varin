@@ -154,7 +154,7 @@ export const portfolioData = [
     "fab fa-react",
   ],
   source: "https://github.com/sarahvar/Life-Is-Strange-React",
-  info: "Le but de projet est de faire passer mon site de PHP vers React pour améliorer les performances de l'application et sa maintenibilité. Ce projet, développé avec 𝙍𝙚𝙖𝙘𝙩 et 𝙍𝙚𝙙𝙪𝙭, est conçu pour offrir une 𝙚𝙭𝙥𝙚́𝙧𝙞𝙚𝙣𝙘𝙚 𝙞𝙢𝙢𝙚𝙧𝙨𝙞𝙫𝙚 aux fans du jeu, qu’ils souhaitent le découvrir pour la première fois ou revivre ses moments les plus intenses.",
+  info: "Le but de projet est de faire passer mon site de PHP vers React pour améliorer les performances de l'application et sa maintenibilité. Ce projet, développé avec 𝙍𝙚𝙖𝙘𝙩 et 𝙍𝙚𝙙𝙪𝙭, est conçu pour offrir une 𝙚𝙭𝙥é𝙧𝙞𝙚𝙣𝙘𝙚 𝙞𝙢𝙢𝙚𝙧𝙨𝙞𝙫𝙚 aux fans du jeu, qu’ils souhaitent le découvrir pour la première fois ou revivre ses moments les plus intenses.",
   picture: "./media/life-is-strange-react.webp",
   link: "https://life-is-strange-react.netlify.app/",
 }
