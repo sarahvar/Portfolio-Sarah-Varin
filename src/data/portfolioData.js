@@ -144,5 +144,18 @@ export const portfolioData = [
   info: "J'ai entrepris la refonte du site web Life Is Strange que j'avais initialement développé en PHP. Dans cette nouvelle version, j'ai amélioré l'aspect visuel du site en utilisant CSS, ce qui le rend plus attrayant. De nouvelles fonctionnalités ont été intégrées, notamment un quiz interactif. La page d'accueil a été modifiée pour ressembler davantage à celle du jeu, offrant une expérience plus immersive. De plus, j'ai ajouté la musique de l'accueil du jeu, que l'utilisateur peut démarrer ou arrêter à sa convenance. Ces améliorations visent à enrichir l'expérience utilisateur et à mieux refléter l'univers du jeu Life Is Strange.",
   picture: "./media/life-is-strange.webp",
   link: "https://youtu.be/iypDkNt8aKQ",
+},
+{
+  id: 14,
+  name: "Life Is Strange React",
+  languages: ["react"],
+  languagesIcons: [
+    "fab fa-js",
+    "fab fa-react",
+  ],
+  source: "https://github.com/sarahvar/Life-Is-Strange-React",
+  info: "Le but de projet est de faire passer mon site de PHP vers React pour améliorer les performances de l'application et sa maintenibilité. Ce projet, développé avec 𝙍𝙚𝙖𝙘𝙩 et 𝙍𝙚𝙙𝙪𝙭, est conçu pour offrir une 𝙚𝙭𝙥𝙚́𝙧𝙞𝙚𝙣𝙘𝙚 𝙞𝙢𝙢𝙚𝙧𝙨𝙞𝙫𝙚 aux fans du jeu, qu’ils souhaitent le découvrir pour la première fois ou revivre ses moments les plus intenses.",
+  picture: "./media/life-is-strange-react.webp",
+  link: "https://life-is-strange-react.netlify.app/",
 }
 ];
