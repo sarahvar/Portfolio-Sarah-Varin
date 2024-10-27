@@ -47,7 +47,7 @@
       }
 
       .years {
-        font-size: .65rem;
+        font-size: 1rem;
         display: flex;
         justify-content: space-between;
         color: #4FEDD2;
@@ -207,7 +207,8 @@
 @media screen and (max-width: 600px) {
   .competences .competencesContent h3 {
   font-size: 0.6rem;
-  }}
+  }
+}
 @media (max-width: 768px) {
   .competences .competencesContent .experience p  {
     font-size: 0.8rem;
@@ -222,6 +223,11 @@
       font-size: .6rem !important;
       padding: .2rem 1rem !important;
     }
+  }
+}
+@media (max-width: 576px) {
+  .competences .competencesContent .languagesFrameworks .years {
+    font-size: 0.6rem !important;
   }
 }
 @media screen and (max-width: 500px){
