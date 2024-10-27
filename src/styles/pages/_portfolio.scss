@@ -256,6 +256,14 @@
     grid-template-rows: 30px 40px 80px 40px !important;
     width: 98% !important;
   }
-
+  .portfolio .projects h3 {
+    grid-area: 2;
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+  }
 }
 }
