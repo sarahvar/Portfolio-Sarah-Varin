@@ -169,5 +169,17 @@ export const portfolioData = [
   info:"Créer un site e-commerce pour une marque fictive de canapés, Kanap. Le but principal est de construire une plateforme de vente en ligne, en utilisant uniquement JavaScript, sans l'aide de bibliothèques ou de frameworks comme React ou Vue.js",
   picture: "./media/kanap.png",
   link: "https://youtu.be/jVlEZTA5uAY?si=7vlAYfLw3dvmjbUI",
-}
+},
+{
+  id: 16,
+  name:"GameOn",
+  languages: ["JS"],
+  languagesIcons: [
+    "fab fa-js",
+  ],
+  source: "https://github.com/sarahvar/P4-GameOn-website-FR",
+  info:"Créez une landing page avec Javascript",
+  picture: "/public/media/GameOn.webp",
+  link: "https://youtu.be/JAhLG_8XUFs?si=HzIpvi6Rnxk0vh2y",
+},
 ];
