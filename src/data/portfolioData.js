@@ -179,7 +179,7 @@ export const portfolioData = [
   ],
   source: "https://github.com/sarahvar/P4-GameOn-website-FR",
   info:"Créez une landing page avec Javascript",
-  picture: "/public/media/GameOn.png",
+  picture: "./media/GameOn.png",
   link: "https://youtu.be/JAhLG_8XUFs?si=HzIpvi6Rnxk0vh2y",
 },
 ];
