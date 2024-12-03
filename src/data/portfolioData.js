@@ -157,5 +157,17 @@ export const portfolioData = [
   info: "Le but de projet est de faire passer mon site de PHP vers React pour améliorer les performances de l'application et sa maintenibilité. Ce projet, développé avec 𝙍𝙚𝙖𝙘𝙩 et 𝙍𝙚𝙙𝙪𝙭, est conçu pour offrir une 𝙚𝙭𝙥é𝙧𝙞𝙚𝙣𝙘𝙚 𝙞𝙢𝙢𝙚𝙧𝙨𝙞𝙫𝙚 aux fans du jeu, qu’ils souhaitent le découvrir pour la première fois ou revivre ses moments les plus intenses.",
   picture: "./media/life-is-strange-react.webp",
   link: "https://life-is-strange-react.netlify.app/",
+},
+{
+  id: 15,
+  name:"Kanap",
+  languages: ["JS"],
+  languagesIcons: [
+    "fab fa-js",
+  ],
+  source: "https://github.com/sarahvar/P5-Kanap-new",
+  info:"Créer un site e-commerce pour une marque fictive de canapés, Kanap. Le but principal est de construire une plateforme de vente en ligne, en utilisant uniquement JavaScript, sans l'aide de bibliothèques ou de frameworks comme React ou Vue.js",
+  picture: "./media/kanap.png",
+  link: "https://youtu.be/jVlEZTA5uAY?si=7vlAYfLw3dvmjbUI",
 }
 ];
