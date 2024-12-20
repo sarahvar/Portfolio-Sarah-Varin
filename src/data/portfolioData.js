@@ -182,4 +182,17 @@ export const portfolioData = [
   picture: "./media/GameOn.png",
   link: "https://youtu.be/JAhLG_8XUFs?si=HzIpvi6Rnxk0vh2y",
 },
+{
+  id: 17,
+  name:"Arcane",
+  languages: ["TS", "angular"],
+  languagesIcons: [
+    "fab fa-ts",
+    "fab fa-angular",
+  ],
+  source: "https://github.com/sarahvar/my-project-angular",
+  info:"Créer un site web sur l'univers d'Arcane avec Angular et TypeScript",
+  picture: "./media/Arcane-Logo.jpg",
+  link: "https://arcane-angular.netlify.app/"
+}
 ];
