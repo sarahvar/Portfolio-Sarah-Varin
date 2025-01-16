@@ -187,7 +187,6 @@ export const portfolioData = [
   name:"Arcane",
   languages: ["TS", "angular"],
   languagesIcons: [
-    "fab fa-ts",
     "fab fa-angular",
   ],
   source: "https://github.com/sarahvar/my-project-angular",

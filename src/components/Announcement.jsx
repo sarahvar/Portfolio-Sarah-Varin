@@ -41,7 +41,7 @@ const styles = {
   },
   text: {
     fontSize: "18px",
-    color: "white",
+    color: "#feea3d",
     marginBottom: "15px",
   },
   callToAction: {

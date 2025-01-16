@@ -113,7 +113,7 @@
     h3 {
       grid-area: 2;
       font-family: $font-2;
-      color: white;
+      color: #feea3d;
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
@@ -125,7 +125,7 @@
     }
     
     .title-container a {
-      color: white;
+      color: #feea3d;
       text-decoration: none;
     }
     
@@ -193,7 +193,7 @@
       }
       .button {
         cursor: pointer;
-        color: white;
+        color: #feea3d;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;
