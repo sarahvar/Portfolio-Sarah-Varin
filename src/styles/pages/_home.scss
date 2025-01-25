@@ -1,7 +1,8 @@
 .home {
   .homeContent {
     background-image: url("../assets/fond-home.png");
-    background-size: cover;
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-size: cover; /* L'image couvre tout */
     min-height: $minHeight;
     width: 100%;
     border-radius: $borderRadius;
