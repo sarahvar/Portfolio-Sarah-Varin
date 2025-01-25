@@ -27,7 +27,6 @@
       }
 
       .varin {
-        position: absolute;
         top: 100%;
         left: 50%;
         transform: translateX(-50%);
@@ -86,7 +85,9 @@
       padding-bottom: 2rem; // Ajoute un padding en bas pour plus d'espace
     }
   }
-
+  .varin {
+   text-align: center;
+  }
     @media screen and (max-width: 1024px) {
       .homeContent {
         min-height: calc($minHeight * 1.1); // Augmente la hauteur de la page sur les tablettes
