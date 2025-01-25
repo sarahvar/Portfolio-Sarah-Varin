@@ -6,8 +6,10 @@ export default function Contact() {
     <div className="contact">
       <Navigation />
       <div className="contactContent">
-        <div className="header">
-        </div>
+        {/* Header Section */}
+        <div className="header"></div>
+
+        {/* Contact Box Section */}
         <div className="contactBox">
           <h1>Contactez-moi</h1>
           <ul>
@@ -30,25 +32,30 @@ export default function Contact() {
             </li>
           </ul>
         </div>
+
+        {/* Social Network Section */}
         <div className="socialNetwork">
           <ul>
-            <a
-              href="https://www.linkedin.com/in/sarah-varin/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4>LinkedIn</h4>
-              <i className="fab fa-linkedin"></i>
-            </a>
-
-            <a
-              href="https://github.com/sarahvar"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4>Github</h4>
-              <i className="fab fa-github"></i>
-            </a>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sarah-varin/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>LinkedIn</h4>
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sarahvar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Github</h4>
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
