@@ -1,6 +1,7 @@
 .home {
   .homeContent {
-    background: #004aad;
+    background-image: url("../assets/fond-home.png");
+    background-size: cover;
     min-height: $minHeight;
     width: 100%;
     border-radius: $borderRadius;
