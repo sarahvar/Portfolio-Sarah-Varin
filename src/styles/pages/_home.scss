@@ -80,13 +80,22 @@
 
   @media (max-width: 767px) {
    
-    .homeContent {
-      min-height: calc($minHeight * 1.2); // Augmente la hauteur de la page sur les mobiles
-      padding-bottom: 2rem; // Ajoute un padding en bas pour plus d'espace
+    
+      .homeContent {
+        background-image: url("../assets/orque.png");
+        background-repeat: no-repeat; /* Pas de répétition */
+        background-size: cover; /* L'image couvre tout */
+        min-height: $minHeight;
+        width: 100%;
+        border-radius: $borderRadius;
+        position: relative;
+        overflow: hidden;
+      }
     }
-  }
+    
   .varin {
    text-align: center;
+   margin-left: 2rem;
   }
     @media screen and (max-width: 1024px) {
       .homeContent {
@@ -114,4 +123,3 @@
       }
     }
   }
-
