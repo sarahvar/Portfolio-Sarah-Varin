@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import { inject } from '@vercel/analytics';
+import { inject } from "@vercel/analytics";
 import "./styles/styles.scss";
 
 // Initialiser Vercel Analytics
@@ -14,61 +14,68 @@ const Competences = lazy(() => import("./pages/Competences.jsx"));
 const Projets = lazy(() => import("./pages/Portfolio.jsx"));
 const Error404 = lazy(() => import("./pages/Error404.jsx"));
 
+// Composant générique pour Suspense avec un fallback
+const SuspenseWrapper = ({ children }) => (
+  <Suspense fallback={<div>Chargement...</div>}>{children}</Suspense>
+);
+
+// Configuration des routes
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Home />
-      </Suspense>
+      </SuspenseWrapper>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Error404 />
-      </Suspense>
+      </SuspenseWrapper>
     ),
   },
   {
     path: "/contact",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Contact />
-      </Suspense>
+      </SuspenseWrapper>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Error404 />
-      </Suspense>
+      </SuspenseWrapper>
     ),
   },
   {
     path: "/competences",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Competences />
-      </Suspense>
+      </SuspenseWrapper>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Error404 />
-      </Suspense>
+      </SuspenseWrapper>
     ),
   },
   {
     path: "/projets",
     element: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Projets />
-      </Suspense>
+      </SuspenseWrapper>
     ),
     errorElement: (
-      <Suspense fallback={<div>Loading...</div>}>
+      <SuspenseWrapper>
         <Error404 />
-      </Suspense>
+      </SuspenseWrapper>
     ),
-  }
+  },
 ]);
 
+// Rendu de l'application
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
