@@ -202,7 +202,24 @@
 
 @media screen and (max-width: 500px) {
   .contactContent {
+    background-image: url(../assets/fond-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: $borderRadius;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 45% 35%;
+    grid-template-areas: 
+      "1"
+      "2"
+      "3";
+  }
+  .contactContent {
     .contactBox {
+      background: rgba(254, 234, 61, 0.8);
       min-width: 100% !important;
     }
 
