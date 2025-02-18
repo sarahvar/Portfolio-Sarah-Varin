@@ -1,34 +1,7 @@
-import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Contact() {
-  const [formStatus, setFormStatus] = useState('');
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setFormStatus('Envoi en cours...');
-
-    const { name, email, message } = e.target.elements;
-
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-
-    let response = await fetch("/src/api/send-email.js", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-
-    const result = await response.json();
-    setFormStatus(result.message);
-  };
-
   return (
     <div className="contact">
       <Navigation />
@@ -45,7 +18,6 @@ export default function Contact() {
               <span>Orléans</span>
             </li>
             <li>
-              <i className="fa-solid fa-envelope"></i>
               <CopyToClipboard text="sarahvarin95@gmail.com">
                 <span
                   className="clickInput"
@@ -58,24 +30,6 @@ export default function Contact() {
               </CopyToClipboard>
             </li>
           </ul>
-
-          {/* Contact Form */}
-          <form onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Nom:</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div>
-              <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <button type="submit">Envoyer</button>
-            {formStatus && <p>{formStatus}</p>}
-          </form>
         </div>
 
         {/* Social Network Section */}
