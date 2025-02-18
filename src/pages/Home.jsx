@@ -10,7 +10,7 @@ export default function Home() {
           <h1>
             Sarah <span className="varin">Varin</span>
           </h1>
-          <h2>Développeuse web FullStack</h2>
+          <h2>Développeuse web Front-End</h2>
           <figure>
             <figcaption>
               {/* Intégration du composant Announcement */}

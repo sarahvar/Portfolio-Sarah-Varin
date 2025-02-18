@@ -193,5 +193,17 @@ export const portfolioData = [
   info:"Créer un site web sur l'univers d'Arcane avec Angular et TypeScript",
   picture: "./media/Arcane-Logo.jpg",
   link: "https://arcane-angular.netlify.app/"
+},
+{
+  id: 18,
+  name: "Portfolio Sarah Varin",
+  languages: ["react"],
+  languagesIcons: [
+    "fab fa-js",
+    "fab fa-react",
+  ],
+  source: "https://github.com/sarahvar/Portfolio-Sarah-Varin",
+  picture: "./media/Portfolio.jpg",
+  link: "https://sarah-varin.netlify.app/",
 }
 ];
