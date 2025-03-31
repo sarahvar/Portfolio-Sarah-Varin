@@ -68,6 +68,17 @@ export default function Contact() {
               </a>
             </li>
           </ul>
+          <footer>
+          Site créé par Sarah Varin - Hébergé sur Vercel
+          <p>
+            Ce site ne collecte aucune donnée personnelle. Les seules informations visibles sont
+            celles que vous choisissez de partager en me contactant directement par e-mail.  
+          </p>
+          <p>
+            J’utilise <strong>Vercel Analytics</strong> pour suivre l’audience du site de manière
+            anonyme, sans stocker d’informations personnelles.  
+          </p>
+          </footer>
         </div>
       </div>
     </div>

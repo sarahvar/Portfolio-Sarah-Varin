@@ -150,7 +150,7 @@
       }
 
       a {
-        width: 30%;
+        width: 45%;
         font-size: 1.2rem;
         background: #feea3d;
         border-radius: $borderRadius;
@@ -243,7 +243,10 @@
     padding: 0.6rem 0;  /* Réduire le padding */
   }
 }
-
+.contactContent .socialNetwork footer{
+  text-align: center;
+  padding: 1rem
+}
 // Ajustement pour les écrans moyens (Tablettes)
 @media screen and (max-width: 768px) {
   .socialNetwork ul {
@@ -269,8 +272,17 @@
     transform-origin: center;
     transition: 0.2s ease;
 }
+.contactContent .socialNetwork footer{
+  text-align: center;
+  font-size: 0.5rem;
 }
-
+}
+@media screen and (max-width: 1024px){
+  .contactContent .socialNetwork footer{
+    text-align: center;
+    font-size: 0.4rem;
+  }
+}
 // Ajustement pour les très petits écrans (Téléphones)
 @media screen and (max-width: 480px) {
   .socialNetwork ul {
