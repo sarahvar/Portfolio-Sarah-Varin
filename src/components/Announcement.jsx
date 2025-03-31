@@ -3,25 +3,27 @@ import React from "react";
 const Announcement = () => {
   return (
     <div style={styles.container}>
-      <h2 style={styles.heading}>✨ Grande nouvelle ! ✨</h2>
+      <h2 style={styles.heading}>✨ Une nouvelle aventure commence ! ✨</h2>
       <p style={styles.text}>
-        Après <strong>plus de 2 ans d'aventures passionnantes dans le développement web</strong>, 
-        je suis très fière de partager que j'ai brillamment réussi ma dernière formation en{' '}
-        <strong>développement d'applications JavaScript/React</strong> 🎉, finalisée le{' '}
-        <strong>13 août 2024</strong> !
+        🚀 Après <strong>3 ans d’expérience en développement web</strong>, j’ai créé ce site pour vous présenter mon <strong>portfolio</strong> : 
+        une collection de projets réalisés <strong>en autodidacte</strong> et lors de mes formations, reflétant ma passion et mon expertise du web.
       </p>
       <p style={styles.text}>
-        💻 En tant que <strong>Développeuse web passionnée</strong>, je suis prête à transformer vos idées en{' '}
-        <strong>applications web modernes et performantes</strong>.
+        🎯 Grâce à ma <strong>deuxième formation en développement web</strong>, j’ai acquis des compétences solides que je mets aujourd’hui au service 
+        des <strong>freelances, auto-entrepreneurs, PME et start-ups</strong>, pour les aider à booster leur présence en ligne.
       </p>
       <p style={styles.text}>
-        🌟 <strong>Prête à relever tous les défis techniques</strong>, je suis là pour contribuer au succès de vos projets innovants.
+        💡 Forte de cette expertise, j’ai fondé <strong>La Vague du Web</strong>, une entreprise dédiée à la <strong>création de sites performants et optimisés</strong>. 
+        Découvrez mes services et ma vision sur <a href="https://sarah-varin-la-vague-du-web.netlify.app/" style={styles.link} target="_blank" rel="noopener noreferrer">La Vague du Web</a>.
+      </p>
+      <p style={styles.text}>
+        🔥 <strong>Prête à donner vie à vos idées</strong>, je conçois des <strong>sites modernes, ergonomiques et impactantes</strong> pour vous démarquer sur le web.
       </p>
       <p style={styles.callToAction}>
-        👉 <strong>Envie de collaborer ?</strong> Let's build something amazing together!
+        👉 <strong>Besoin d’un site web qui fait la différence ?</strong> Discutons de votre projet et créons ensemble une solution à la hauteur de vos ambitions !
       </p>
       <p style={styles.portfolioInvite}>
-      🌐 N'hésitez pas à plonger dans mon <strong>portfolio</strong> pour découvrir des projets captivants qui pourraient inspirer notre collaboration !
+        🌐 Explorez mon <strong>portfolio</strong> et laissez-vous inspirer par mes réalisations !
       </p>
     </div>
   );
@@ -51,9 +53,14 @@ const styles = {
     fontWeight: "bold",
   },
   portfolioInvite: {
-    fontSize: '20px',
-    marginTop: '20px',
-    color: '#ffffff',
+    fontSize: "20px",
+    marginTop: "20px",
+    color: "#ffffff",
+  },
+  link: {
+    color: "#4FEDD2",
+    textDecoration: "none",
+    fontWeight: "bold",
   },
 };
 
