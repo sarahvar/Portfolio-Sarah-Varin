@@ -56,7 +56,7 @@ export const portfolioData = [
     source: "https://github.com/sarahvar/Front-End-Fisheye",
     info: "Créez un site accessible pour une plateforme de photographes avec des designs patterns.",
     picture: "./media/FisheEye.png",
-    link: "https://youtu.be/He7OnhJdldk",
+    link: "https://fisheye-sarah-varin.netlify.app/",
   },
   {
     id: 7,
