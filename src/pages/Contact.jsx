@@ -44,9 +44,6 @@ export default function Contact() {
                 </span>
               </CopyToClipboard>
             </li>
-            <button className="legalButton" onClick={() => setShowModal(true)}>
-            Mentions légales & Politique de confidentialité
-          </button>
           </ul>
        
         </div>
@@ -75,6 +72,9 @@ export default function Contact() {
               </a>
             </li>
           </ul>
+          <button className="legalButton" onClick={() => setShowModal(true)}>
+            Mentions légales & Politique de confidentialité
+          </button>
         </div>
       </div>
 
