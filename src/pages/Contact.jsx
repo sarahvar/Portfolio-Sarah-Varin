@@ -15,7 +15,7 @@ export default function Contact() {
           <ul>
             <li>
               <i className="fas fa-map-marker-alt"></i>
-              <span>Orléans</span>
+              <span>Orléans, Loiret, Centre Val de Loire, France entière</span>
             </li>
             <li>
               <CopyToClipboard text="sarahvarin95@gmail.com">
@@ -26,6 +26,18 @@ export default function Contact() {
                   }}
                 >
                   sarahvarin95@gmail.com
+                </span>
+              </CopyToClipboard>
+            </li>
+            <li>
+              <CopyToClipboard text="lavagueduweb@gmail.com">
+                <span
+                  className="clickInput"
+                  onClick={() => {
+                    alert("E-mail copié!");
+                  }}
+                >
+                  lavagueduweb@gmail.com
                 </span>
               </CopyToClipboard>
             </li>
@@ -47,7 +59,7 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href="https://github.com/sarahvar"
+                href="https://www.linkedin.com/in/sarah-varin-la-vague-du-web/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
