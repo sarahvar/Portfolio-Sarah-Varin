@@ -245,7 +245,10 @@
 }
 .contactContent .socialNetwork footer{
   text-align: center;
-  padding: 1rem
+  padding: 4rem
+}
+.contactContent .socialNetwork footer a {
+  color: white;
 }
 // Ajustement pour les écrans moyens (Tablettes)
 @media screen and (max-width: 768px) {
@@ -275,12 +278,14 @@
 .contactContent .socialNetwork footer{
   text-align: center;
   font-size: 0.5rem;
+  padding: 1rem
 }
 }
 @media screen and (max-width: 1024px){
   .contactContent .socialNetwork footer{
     text-align: center;
     font-size: 0.4rem;
+    padding: 1rem
   }
 }
 // Ajustement pour les très petits écrans (Téléphones)
