@@ -1,7 +1,10 @@
+import { useState } from "react";
 import Navigation from "../components/Navigation";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Contact() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className="contact">
       <Navigation />
@@ -41,7 +44,11 @@ export default function Contact() {
                 </span>
               </CopyToClipboard>
             </li>
+            <button className="legalButton" onClick={() => setShowModal(true)}>
+            Mentions légales & Politique de confidentialité
+          </button>
           </ul>
+       
         </div>
 
         {/* Social Network Section */}
@@ -68,14 +75,23 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-          <footer>
+        </div>
+      </div>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="modal-overlay" onClick={() => setShowModal(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={() => setShowModal(false)}>
+              &times;
+            </button>
             <h2>Mentions légales</h2>
             <p>Le site est édité par Sarah Varin.</p>
             <p>Hébergement : Vercel</p>
             <p>La responsable de la publication est Sarah Varin.</p>
             <p>
               Pour toute question, vous pouvez me contacter par e-mail à
-              l'adresse :{" "}
+              l'adresse :
               <a href="mailto:sarahvarin95@gmail.com">sarahvarin95@gmail.com</a>
             </p>
 
@@ -90,9 +106,9 @@ export default function Contact() {
               du site de manière anonyme, sans stocker d’informations
               personnelles.
             </p>
-          </footer>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

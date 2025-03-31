@@ -1,3 +1,119 @@
+.modal-overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: $borderRadius;
+  width: 50%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: #004aad;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: #004aad;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.legalButton{
+  background-color: white;
+}
+.contactContent {
+  background-image: url(../assets/fond-contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: $borderRadius;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 45% 35%;
+  grid-template-areas: 
+    "header"
+    "contactBox"
+    "socialNetwork";
+
+  .header {
+    grid-area: header;
+  }
+
+  .contactBox {
+    grid-area: contactBox;
+  }
+
+  .socialNetwork {
+    grid-area: socialNetwork;
+  }
+
+  .modal-overlay {
+    grid-area: contactBox; // La modale s'affiche par-dessus la section contactBox
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal-content {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+
 .contactContent {
   background-image: url(../assets/fond-contact.png);
   background-size: cover;
@@ -82,7 +198,6 @@
     }
 
     ul {
-      height: 72%;
       width: inherit;
       display: grid;
       margin-top: 3.5rem;
@@ -243,13 +358,6 @@
     padding: 0.6rem 0;  /* Réduire le padding */
   }
 }
-.contactContent .socialNetwork footer{
-  text-align: center;
-  padding: 4rem
-}
-.contactContent .socialNetwork footer a {
-  color: white;
-}
 // Ajustement pour les écrans moyens (Tablettes)
 @media screen and (max-width: 768px) {
   .socialNetwork ul {
@@ -275,18 +383,6 @@
     transform-origin: center;
     transition: 0.2s ease;
 }
-.contactContent .socialNetwork footer{
-  text-align: center;
-  font-size: 0.5rem;
-  padding: 1rem
-}
-}
-@media screen and (max-width: 1024px){
-  .contactContent .socialNetwork footer{
-    text-align: center;
-    font-size: 0.4rem;
-    padding: 1rem
-  }
 }
 // Ajustement pour les très petits écrans (Téléphones)
 @media screen and (max-width: 480px) {
