@@ -10,7 +10,7 @@ const Announcement = () => {
       </p>
       <p style={styles.text}>
         🎯 Grâce à ma <strong>deuxième formation en développement web</strong>, j’ai acquis des compétences solides que je mets aujourd’hui au service 
-        des <strong>freelances, auto-entrepreneurs, PME et start-ups</strong>, pour les aider à booster leur présence en ligne.
+        des <strong>freelances, entrepreneurs, TPE et PME </strong>, pour les aider à booster leur présence en ligne.
       </p>
       <p style={styles.text}>
         💡 Forte de cette expertise, j’ai fondé <strong>La Vague du Web</strong>, une entreprise dédiée à la <strong>création de sites performants et optimisés</strong>. 
