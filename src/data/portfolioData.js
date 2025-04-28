@@ -174,7 +174,7 @@ export const portfolioData = [
     languages: ["react"],
     languagesIcons: ["fab fa-js", "fab fa-react"],
     source: "https://github.com/sarahvar/Portfolio-Sarah-Varin",
-    picture: "./media/Portfolio.jpg",
+    picture: "./media/Portfolio.png",
     link: "https://sarah-varin.netlify.app/",
   },
   {
